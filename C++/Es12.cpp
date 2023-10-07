@@ -1,4 +1,4 @@
-/*Insersci un carattere e dire se è una lettera*/
+/*Inserisci un carattere e dire se è una lettera MAIUSCOLA o minuscola*/
 
 #include <iostream>
 #include <string>
