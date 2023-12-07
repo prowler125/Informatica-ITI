@@ -1,3 +1,9 @@
+/*Creare una funzione che calcola la cifra più significativa di un numero intero
+(ovvero “quella più a sinistra”).
+Leggere due numeri interi compresi tra 0 e 1000 e verificare se la cifra più
+significativa del prodotto dei due numeri è minore di quella della somma.
+Creare un main per testare la funzione e gestire i casi di inserimento errati.*/
+
 #include <iostream>
 using namespace std;
 

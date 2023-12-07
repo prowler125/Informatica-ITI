@@ -1,3 +1,6 @@
+/*Dopo aver inserito un numero positivo, il programma restituisce da quante cifre è
+costituito il numero. Risolvete l’esercizio con le stringhe.*/
+
 #include <iostream>
 #include <string>
 using namespace std;
