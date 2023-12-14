@@ -18,7 +18,7 @@ int main()
         cin >> vett[i];
         if (vett[i] == 1)
         {
-            cout << "Hai inserito il numero 1!";
+            cout << "Hai inserito il numero 1 alla cella n°" << vett[i];
         }
     }
 
