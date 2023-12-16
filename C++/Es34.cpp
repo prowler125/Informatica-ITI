@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-using namespace std;
+using namespace ;
 
 void dadi(int a, int b, int c)
 {

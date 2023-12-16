@@ -5,7 +5,7 @@ Il secondo è maggiore
 Il terzo è maggiore*/
 
 #include <iostream>
-using namespace std;
+using namespace ;
 
 int main()
 {

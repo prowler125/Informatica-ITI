@@ -3,7 +3,7 @@
 calcolarne la somma e la media.*/
 
 #include <iostream>
-using namespace std;
+using namespace ;
 int main()
 {
     float a[8];
@@ -26,7 +26,7 @@ significativa del prodotto dei due numeri è minore di quella della somma.
 Creare un main per testare la funzione e gestire i casi di inserimento errati.*/
 
 #include <iostream>
-using namespace std;
+using namespace ;
 
 int cifra_piu_significativa(int numero)
 {

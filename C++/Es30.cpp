@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 #include <iostream>
-using namespace std;
+using namespace ;
 int main()
 {
     float a[7];
@@ -27,7 +27,7 @@ saranno 2 0 0.
 Creare un main per testare la funzione e utilizzare il passaggio per riferimento.*/
 
 #include <iostream>
-using namespace std;
+using namespace ;
 
 void sposta_debiti(int &a, int &b, int &c)
 {

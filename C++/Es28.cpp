@@ -11,7 +11,7 @@ superiore compreso).*/
 
 >>>>>>> 0a659b12ced6c3d279cfbaebf02fdc55d46f4963
 #include <iostream>
-using namespace std;
+using namespace ;
 
 int main()
 {

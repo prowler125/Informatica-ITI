@@ -1,7 +1,7 @@
 /*Memorizzare in un array di 100 posti i primi cento numeri naturali in ordine inverso.*/
 
 #include <iostream>
-using namespace std;
+using namespace ;
 
 int main()
 {

@@ -4,7 +4,7 @@ somma dei primi n numeri dispari(per esempio: per num= 5, è
 
 #include <iostream>
 #include <cmath>
-using namespace std;
+using namespace ;
 
 int main()
 {

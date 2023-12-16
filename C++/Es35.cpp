@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-using namespace std;
+using namespace ;
 
 int inserimentoDati(int x = 0, int y = 0)
 {

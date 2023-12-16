@@ -2,7 +2,7 @@
 pertanto bisogna gestire l'inserimento di numeri errati.*/
 
 #include <iostream>
-using namespace std;
+using namespace ;
 
 int main(){
     int x;
