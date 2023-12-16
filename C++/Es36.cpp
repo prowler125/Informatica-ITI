@@ -1,30 +1,36 @@
-#include <iosrteam>
+/*Scrivere un programma che dati i dati il cognome, il nome e l’anno di nascita. Il
+programma crea automaticamente un codice identificativo della persona
+prendendo i primi due caratteri del cognome, i primi due del nome e le cifre
+dell’anno di nascita. L’esercizio va risolto attraverso le stringhe. Controllare che
+l’anno sia ammissibile ovvero compreso tra 1900 e il 2023.*/
+
+#include <iostream>
 #include <string>
 using namespace std;
 
 int main()
 {
-    sring surname, firname;
+    string surname, firname;
     int yearOfBirth;
 
-    cout << "Enter your surname: ";
+    cout << "Immetti il tuo Cognome: ";
     cin >> surname;
 
-    cout << "Enter your fir name: ";
+    cout << "Immetti il tuo Nome: ";
     cin >> firname;
 
-    cout << "Enter your year of birth: ";
+    cout << "Immetti il tuo anno di nascita: ";
     cin >> yearOfBirth;
 
     if (yearOfBirth < 1900 || yearOfBirth > 2023)
     {
-        cout << "Year of birth mu be between 1900 and 2023.\n";
+        cout << "Il tuo anno di nascita deve essere tra 1900 e 2023 \n";
         return 1;
     }
 
-    ring idCode = surname.subr(0, 2) + firname.subr(0, 2) + to_ring(yearOfBirth);
+    string idCode = surname.substr(0, 2) + firname.substr(0, 2) + to_string(yearOfBirth);
 
-    cout << "Your ID code is: " << idCode << "\n";
+    cout << "Il tuo Codice Fiscale è: " << idCode << "\n";
 
     return 0;
 }
