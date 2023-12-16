@@ -1,0 +1,40 @@
+name "Selezione if-else
+data segment
+BD
+4Bh
+numi
+num2
+12h
+ris
+00h
+pkey db "press any
+ends
+stack
+dw se9 2gt dup(0)
+ends
+codesegment
+start:
+moV ax data
+mov ds , ax
+mov es, ax
+mov ax,0000h
+mov bx,0000h
+mov
+aĮ al.' nun2 iconfro
+cmp
+;una so
+jge salta isalta se
+del
+se
+se
+a
+add jmp FiapunZ
+;salto
+salta:
+sub al,num2 ;calcol
+fine:
+mov ris,al ;salva
+mov moV mov int int int lea 2h 2in 2h dx, 1 Bkey 4c00h
+;comune
+ends
+end start
