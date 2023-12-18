@@ -10,8 +10,6 @@ void initializeArray(char arr[], int size)
     {
         cout << "Enter a character for index " << i << ": ";
         cin >> arr[i];
-
-        // Check if the value is ammissible
         while (!isalpha(arr[i]))
         {
             cout << "Invalid character. Enter a valid character for index " << i << ": ";
