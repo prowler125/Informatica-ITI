@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+using namespace ;
 int main(){
 	float n;
 	cout<<"Inserisci un numero: ";

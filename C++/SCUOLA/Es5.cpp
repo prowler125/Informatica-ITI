@@ -4,7 +4,7 @@ formato ore, minuti e secondi.(Già svolto l’anno scorso)*/
 
 #include <iostream>
 #include <string>
-using namespace std;
+using namespace ;
 
 int main()
 {

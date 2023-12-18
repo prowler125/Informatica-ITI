@@ -2,7 +2,7 @@
 effettuare la conversione di un numero intero da base 10 a base 2.*/
 
 #include <iostream>
-using namespace std;
+using namespace ;
 
 int base10(int j)
 {

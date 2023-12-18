@@ -2,7 +2,7 @@
 #include <cmath>
 #include <string>
 #include <string.h>
-using namespace std;
+using namespace ;
 
 float perimetro(float cateto1, float cateto2)
 {

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-using namespace std;
+using namespace ;
 
 int funz_Differenza(int a, int b, int c, int d, int num_Maggiore, int num_Minore)
 {

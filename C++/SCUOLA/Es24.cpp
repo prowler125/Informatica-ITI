@@ -3,7 +3,7 @@ maggiore. Si suppone che il vettore venga inizializzato a tempo di esecuzione,
 così come la sua dimensione.*/
 
 #include <iostream>
-using namespace std;
+using namespace ;
 
 void scambiaMinMax(int *v, int n)
 {

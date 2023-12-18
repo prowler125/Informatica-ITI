@@ -5,7 +5,7 @@ intero da base 10 a base 2.*/
 
 #include <iostream>
 #include <cmath>
-using namespace std;
+using namespace ;
 
 int main()
 {
@@ -16,7 +16,7 @@ intero.*/
 #include <iostream>
 #include <cmath>
 #include <string>
-using namespace std;
+using namespace ;
 
 int funz_Ritorno(int a, int r)
 {

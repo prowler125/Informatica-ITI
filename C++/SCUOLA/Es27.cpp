@@ -8,7 +8,7 @@ costituito il numero. Risolvete l’esercizio con le stringhe.*/
 #include <iostream>
 >>>>>>> 0a659b12ced6c3d279cfbaebf02fdc55d46f4963
 #include <string>
-using namespace std;
+using namespace ;
 
 int main()
 {

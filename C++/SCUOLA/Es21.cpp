@@ -10,7 +10,7 @@ le operazioni necessarie alla risoluzione del problema(6 punti)
  l'output deve essere uguale all'output mostrato sotto.(3 punti)*/
 
 #include <iostream>
-using namespace std;
+using namespace ;
 
 int main()
 {

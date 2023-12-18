@@ -4,7 +4,7 @@
 -conversione da base 10 a base 2 e 16
 - terminazione del programma*/
 #include <iostream>
-using namespace std;
+using namespace ;
 
 string decToBin(int n)
 {
