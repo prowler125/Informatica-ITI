@@ -55,8 +55,6 @@ void fillArray(char arr[], int size)
     else
     {
         arr[size - 1] = '+';
-
-        // Check for repeated elements
         for (int i = 0; i < size - 1; i++)
         {
             for (int j = i + 1; j < size - 1; j++)
@@ -77,12 +75,10 @@ int main()
 
     cout << "Enter the size of the array: ";
     cin >> size;
-
     initializeArray(arr, size);
     displayOccupiedCells(arr, size);
     displayAllCells(arr, size);
     fillArray(arr, size);
     displayAllCells(arr, size);
-
     return 0;
 }
