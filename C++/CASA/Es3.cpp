@@ -15,11 +15,11 @@ int main()
         cin >> vett[i];
         if (vett[i] % 2 == 0)
         {
-            cout << "Il numero " << vett[i] << " è pari" << endl;
+            cout << "Il numero " << vett[i] << " e' pari" << endl;
         }
         else
         {
-            cout << "Il numero " << vett[i] << " è dispari" << endl;
+            cout << "Il numero " << vett[i] << " e' dispari" << endl;
         }
     }
 
