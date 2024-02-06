@@ -21,11 +21,11 @@ int frequencyWithCharArray(const char *s, char c)
     return count;
 }
 
-int frequencyWithStringFind(const std::string &s, char c)
+int frequencyWithStringFind(const string &s, char c)
 {
     int count = 0;
     size_t pos = s.find(c);
-    while (pos != std::string::npos)
+    while (pos != string::npos)
     {
         count++;
         pos = s.find(c, pos + 1);
@@ -33,7 +33,7 @@ int frequencyWithStringFind(const std::string &s, char c)
     return count;
 }
 
-int frequencyWithStringNoFind(const std::string &s, char c)
+int frequencyWithStringNoFind(const string &s, char c)
 {
     int count = 0;
     for (char i : s)
