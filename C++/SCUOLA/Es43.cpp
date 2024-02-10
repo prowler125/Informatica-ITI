@@ -35,8 +35,8 @@ bool isPari(int numero)
 int main()
 {
     int n;
-    cout << "Inserisci il numero di numeri da inserire: ";
-    cin >> n;
+    std::cout << "Inserisci il numero di numeri da inserire: ";
+    std::cin >> n;
 
     int sommaPari = 0;
     int sommaDispari = 0;
@@ -46,8 +46,8 @@ int main()
     for (int i = 0; i < n; i++)
     {
         int numero;
-        cout << "Inserisci il numero: ";
-        cin >> numero;
+        std::cout << "Inserisci il numero: ";
+        std::cin >> numero;
 
         numero = trasformaPositivo(numero);
 
@@ -63,10 +63,10 @@ int main()
         }
     }
 
-    cout << "Somma dei numeri pari: " << sommaPari << endl;
-    cout << "Numero dei numeri pari: " << numPari << endl;
-    cout << "Somma dei numeri dispari: " << sommaDispari << endl;
-    cout << "Numero dei numeri dispari: " << numDispari << endl;
+    std::cout << "Somma dei numeri pari: " << sommaPari << std::endl;
+    std::cout << "Numero dei numeri pari: " << numPari << std::endl;
+    std::cout << "Somma dei numeri dispari: " << sommaDispari << std::endl;
+    std::cout << "Numero dei numeri dispari: " << numDispari << std::endl;
 
     return 0;
 }
