@@ -1,6 +1,6 @@
-/*Realizzare un programma che preveda l&#39;utilizzo di una struttura auto. La struttura
-permette di descrivere un&#39;automobile in base alla marca, cilindrata, anno di
-immatricolazione e acquirente. Il programma deve prevedere inoltre l&#39;utilizzo di un Array di
+/*Realizzare un programma che preveda l'utilizzo di una struttura auto. La struttura
+permette di descrivere un'automobile in base alla marca, cilindrata, anno di
+immatricolazione e acquirente. Il programma deve prevedere inoltre l'utilizzo di un Array di
 tipo auto (con dimensioni pari a 3) che consente di inserire da tastiera i dati delle auto in
 vendita in un autosalone. Si cerchi la macchina con anno di immatricolazione più recente e
 si visualizzi a video i dati relativi all’automobile corrispondente.*/

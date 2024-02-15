@@ -1,8 +1,8 @@
 /*Realizzare tre diverse strutture per: modellare un rettangolo, un quadrato ed un
 cerchio. Utilizzare queste strutture per consentire a un utente di inserire base ed altezza
-del rettangolo, lato del quadrato e raggio del cerchio. Calcolata l&#39;area delle differenti
+del rettangolo, lato del quadrato e raggio del cerchio. Calcolata l'area delle differenti
 forme geometriche, il programma deve riportare in seguito quale delle tre è
-caratterizzata dall&#39;area maggiore.*/
+caratterizzata dall'area maggiore.*/
 
 #include <iostream>
 #include <cmath>
