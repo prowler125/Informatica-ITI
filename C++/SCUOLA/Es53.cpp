@@ -51,6 +51,5 @@ int main()
     cout << "Cilindrata: " << autosalone[maxIndex].cilindrata << endl;
     cout << "Anno di immatricolazione: " << autosalone[maxIndex].anno << endl;
     cout << "Acquirente: " << autosalone[maxIndex].acquirente << endl;
-
     return 0;
 }
