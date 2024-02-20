@@ -1,0 +1,1 @@
+// Provare a creare una classe Quadrato con l'attributo lato e i metodi per il calcolo dell'area  e del perimetro.
