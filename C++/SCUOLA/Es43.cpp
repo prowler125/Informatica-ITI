@@ -66,7 +66,7 @@ int main()
     cout << "Somma dei numeri pari: " << sommaPari << endl;
     cout << "Numero dei numeri pari: " << numPari << endl;
     cout << "Somma dei numeri dispari: " << sommaDispari << endl;
-    std::cout << "Numero dei numeri dispari: " << numDispari << std::endl;
+    cout << "Numero dei numeri dispari: " << numDispari << endl;
 
     return 0;
 }
