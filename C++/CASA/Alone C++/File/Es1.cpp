@@ -7,9 +7,15 @@ using namespace std;
 
 int main()
 {
-    ifstream input("input.txt");
-    ofstream output("output.txt");
+    ifstream input("Es1 (Input).txt");
+    ofstream output("Es1 (Output).txt");
     string line;
+
+    if (!input)
+    {
+        cout << "Impossibile aprire il file di input." << endl;
+        return 1;
+    }
 
     if (input.is_open() && output.is_open())
     {
