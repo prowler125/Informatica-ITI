@@ -17,6 +17,12 @@ int main()
         return 1;
     }
 
+    if (!output)
+    {
+        cout << "Impossibile aprire il file di output." << endl;
+        return 1;
+    }
+
     if (input.is_open() && output.is_open())
     {
         while (getline(input, line))
