@@ -1,34 +1,44 @@
+#include <iostream>                // Permette operazioni di input/output
+#include <fstream>                 // Permette operazioni su file
+#include <limits>                  // Fornisce informazioni sui limiti numerici
+#include <cstdlib>                 // Fornisce funzioni generali
+#define rubricaSize 5              // Definisce la dimensione massima della rubrica
+using namespace std;               // Permette l'uso di nomi nel namespace std senza qualificazione
+static int rubricaCurrentSize = 0; // Contatore per la dimensione corrente della rubrica
 
-#include<iostream>
-#include<fstream>
-#include<limits>
-#include<cstdlib>
-#define rubricaSize 5
-using namespace std;
-static int rubricaCurrentSize=0;
-void pauseClear(){
-    cout << "Press enter to continue...";
-    cin.ignore(numeric_limits<streamsize>::max(),'\n');
-    system("clear");
-
+// Funzione per mettere in pausa e pulire la console
+void pauseClear()
+{
+    cout << "Press enter to continue...";                // Stampa un messaggio
+    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Ignora l'input fino a quando non viene premuto invio
+    system("clear");                                     // Pulisce la console
 }
-class Rubrica{
-    // incapsulamento
-    private:
-    string cognome;
-    string nome;
-    string telFisso;
-    string telMobile;
 
-    public:
-    // incapsulamento
-    string nomeValue(){
+// Classe Rubrica
+class Rubrica
+{
+    // Membri privati per l'incapsulamento
+private:
+    string cognome;   // Variabile per il cognome
+    string nome;      // Variabile per il nome
+    string telFisso;  // Variabile per il telefono fisso
+    string telMobile; // Variabile per il telefono mobile
+
+public:
+    // Metodi pubblici per l'incapsulamento
+    // Restituisce il valore del nome
+    string nomeValue()
+    {
         return this->nome;
     }
-    string cognomeValue(){
+    // Restituisce il valore del cognome
+    string cognomeValue()
+    {
         return this->cognome;
     }
-    string telFissoValue(){
+    // Restituisce il valore del telefono fisso
+    string telFissoValue()
+    {
         return this->telFisso;
     }
     string telMobileValue(){
@@ -100,10 +110,6 @@ class Rubrica{
         cout<<"Cognome:\t"<<cognome<<endl<<"Nome:\t\t"<<nome<<endl<<"Tel_fisso:\t"<<telFisso<<endl<<"Tel_mobile:\t"<<telMobile<<endl<<endl;
         cout<<"---------------------------------------------------------------------------------------------------------"<<endl<<endl;
     }
-   
-
-  
-    
 };
 void stampaRubrica(Rubrica rubrica [rubricaSize]){
     for(int i = 0;i<rubricaCurrentSize;i++){
