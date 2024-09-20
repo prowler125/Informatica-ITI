@@ -3,24 +3,22 @@ using namespace std;
 
 int main()
 {
-    int c = 1;
     int m = 0;
+    int r = 0;
     int n = 0;
-    cout << "Dammi il valore di m: ";
+    int c = 1;
+    cout << "Dammi il valore di M: ";
     cin >> m;
-    cout << "Dammi il valore di n: ";
+    cout << "Dammi il valore di N: ";
     cin >> n;
-    while (m != n)
+    while ((c <= m) && (c <= n))
     {
-        if (m > n)
+        if ((m % c == 0) && (n % c == 0))
         {
-            m = m - n;
+            r = c;
         }
-        else if (n > m)
-        {
-            n = n - m;
-        }
-        cout << n << endl;
+        c = c + 1;
+        cout << r << endl;
     }
     return 0;
 }
