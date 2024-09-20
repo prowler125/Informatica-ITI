@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int sommSemplice(int n, int m)
+#include <iostream>
+using namespace std;
+
+int sommSemplice()
 {
+    int n, m;
     cout << "Dammi i valori di m e n: " << endl;
     cin >> m;
     cin >> n;
@@ -11,8 +15,9 @@ int sommSemplice(int n, int m)
     return somma;
 }
 
-int sommComplex(int s, int k)
+int sommComplex()
 {
+    int s, k;
     cout << "Dammi i valori di s e k: " << endl;
     cin >> s;
     cin >> k;
@@ -26,7 +31,7 @@ int sommComplex(int s, int k)
 
 int main()
 {
-    int result1 = sommSemplice(0, 0);
-    int result2 = sommComplex(0, 0);
+    int result1 = sommSemplice();
+    int result2 = sommComplex();
     return 0;
 }
