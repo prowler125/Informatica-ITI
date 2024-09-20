@@ -3,29 +3,30 @@ using namespace std;
 
 int sommSemplice(int n, int m)
 {
-    n = 0;
-    m = 0;
-    int somma = m + n;
     cout << "Dammi i valori di m e n: " << endl;
     cin >> m;
     cin >> n;
+    int somma = m + n;
     cout << "La somma è: " << somma << endl;
+    return somma;
 }
 
 int sommComplex(int s, int k)
 {
-    k = 1;
-    s = 0;
     cout << "Dammi i valori di s e k: " << endl;
     cin >> s;
     cin >> k;
+    int somma = (s + k) / 2;
     if (k != s)
     {
-        int somma = (s + k) / 2;
         cout << "La Somma è: " << somma << endl;
     }
+    return somma;
 }
 
 int main()
 {
+    int result1 = sommSemplice(0, 0);
+    int result2 = sommComplex(0, 0);
+    return 0;
 }
