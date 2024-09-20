@@ -1,3 +1,17 @@
+// Pseudo Codice
+
+/*Inizio procedimento
+    leggi il valore di m e di n
+    c = 1
+        finché (c ≤ m) && (c ≤ n) esegui
+            inizio operazione
+                se (c divide m) && (c divide n)
+                    allora r == c
+                c == c + 1
+            Fine Operazione
+        Scrivi il valore di r
+    Fine Procedimento*/
+
 #include <iostream>
 using namespace std;
 
