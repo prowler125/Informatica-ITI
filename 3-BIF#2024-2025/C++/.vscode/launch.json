@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "cppdbg",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/${input:programName}",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": true
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "programName",
+            "description": "Select the program to launch",
+            "options": [
+                "Es1",
+                "Fibonacci.cpp",
+                "Fibonacci(While).cpp",
+                "index",
+                "index.cpp",
+                "PseudoCod.cpp",
+                "PseudoCod2",
+                "PseudoCod2.cpp",
+                "PseudoCod3.cpp",
+                "Sonic.cpp"
+            ]
+        }
+    ]
+}
