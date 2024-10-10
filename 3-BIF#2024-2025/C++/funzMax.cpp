@@ -9,6 +9,10 @@ int max(int A, int B, int C)
     cin >> B;
     cout << "Dammi il valore di C: ";
     cin >> C;
+    if (A >= B && a >= c)
+    {
+        return A;
+    }
 }
 int main()
 {
