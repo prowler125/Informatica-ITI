@@ -21,6 +21,6 @@ int stampaRiga(int num, char x)
     cin >> x;
     for (int i = 1; i <= num; i++)
     {
-        return x;
+        cout << x;
     }
 }
