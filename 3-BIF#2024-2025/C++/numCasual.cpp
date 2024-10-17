@@ -8,8 +8,13 @@ se:
     2.2 Troppo basso
 3. Indovinato e dicendo in quanti tentativi  sono serviti*/
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
-int main(){
-    
+int main()
+{
+    srand(time(0));
+    int randomNumber = rand() % 1000 + 1;
+    return 0;
 }
