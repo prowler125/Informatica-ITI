@@ -21,15 +21,46 @@ int cresceTriang(int, char);
 int decresTriang(int, char);
 int main()
 {
-    return 0;
-}
-int charCasual(int N, char X)
-{
-    N = 0;
+    int N = 0;
+    char X;
     cout << "Inserisca il valore di N: ";
     cin >> N;
-    for (int i = 0; i < N; i++)
+    cout << "Inserisca il carattere X: ";
+    cin >> X;
+
+    while (true)
     {
-        /* code */
+        cresceTriang(N, X);
+        decresTriang(N, X);
+    }
+    return 0;
+}
+
+int charCasual(int N, char X)
+{
+    return 0;
+}
+
+int cresceTriang(int N, char X)
+{
+    for (int k = 1; k <= N; k++)
+    {
+        for (int j = 1; j <= k; j++)
+        {
+            cout << X;
+        }
+        cout << endl;
+    }
+}
+
+int decresTriang(int N, char X)
+{
+    for (int k = N; k >= 1; k--)
+    {
+        for (int j = 1; j <= k; j++)
+        {
+            cout << X;
+        }
+        cout << endl;
     }
 }
