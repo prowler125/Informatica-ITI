@@ -1,3 +1,8 @@
+/*Ex02BF
+Funzione che ritorna il massimo da 3 numeri dati in input.
+Definire una funzione max3 che ha 3 parametri interi e restituisce il massimo dei numeri dati
+*/
+
 #include <iostream>
 using namespace std;
 
