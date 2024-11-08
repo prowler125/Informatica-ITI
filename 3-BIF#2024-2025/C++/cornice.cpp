@@ -7,13 +7,37 @@ caratteri X.
 
 Chiamarla nel main su numeri che
 vanno da 1 ad N con N letto da tastiera*/
-
 #include <iostream>
-#include <cmath>
-#include <math.h>
 using namespace std;
 
-void qCornice();
-int main(){
+void qCornice(int, char);
 
+int main()
+{
+    int N;
+    cout << "Immetti il valore di N ";
+    cin >> N;
+
+    for (int i = 1; i <= N; i++)
+    {
+        qCornice(i, 'X');
+        cout << endl;
+    }
+
+    return 0;
+}
+
+void qCornice(int N, char c)
+{
+    for (int i = 1; i <= N; i++)
+    {
+        for (int j = 1; j <= N; j++)
+        {
+            if (i == 1 || i == N || j == 1 || j == N)
+                cout << c << " ";
+            else
+                cout << "  ";
+        }
+        cout << endl;
+    }
 }
