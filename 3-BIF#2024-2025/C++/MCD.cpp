@@ -1,6 +1,7 @@
 /*EX33-F:
-MCD scrivere una funzione funzione che ha come parametri due numeri interi
-e restituisce il Massimo Comune Denominatore dei due numeri.
+MCD scrivere una funzione che ha come parametri due numeri interi
+e restituisce il Massimo Comune Denominatore dei due numeri, ma con funzione ricorsiva
+ex33-R  MCD:
 Chiamarla più volte nel main*/
 
 #include <iostream>
