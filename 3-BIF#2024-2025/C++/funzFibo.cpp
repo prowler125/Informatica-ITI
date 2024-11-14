@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cmath>
+#include <math.h>
 using namespace std;
 
 int funzFibo()
@@ -22,8 +24,3 @@ int main()
     funzFibo();
     return 0;
 }
-
-
-
-
-
