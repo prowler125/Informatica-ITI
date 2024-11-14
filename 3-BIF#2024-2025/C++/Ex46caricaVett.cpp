@@ -9,21 +9,20 @@ stampa il vettore*/
 #include <math.h>
 using namespace std;
 
-int main(){
-    const int N=20;
+int main()
+{
+    const int N = 20;
     int vett[N];
-    cout << "Dammi il Valore dell'indice: 0"<< endl;
+    cout << "Dammi il Valore dell'indice: 0" << endl;
     for (int i = 0; i <= N; i++)
     {
-        cout<<"Indice: "<<i<<endl;
-        do
+        cout << "Indice: " << i << endl;
+        while (vett[i] <= 0)
         {
-            cin>>vett[i];
-            cout<<"Il Valore dell'Indice: "<<i<<" non è corretto, poiché minore di 0."<<endl;
-            cout<<"Reinserire il Valore, da tastiera."<<endl;
-        } while (vett[i]!=0 && vett[i]>0);
-        
-        cin>>
+            cin >> vett[i];
+            cout << "Il Valore dell'Indice: " << i << " non è corretto, poiché minore di 0." << endl;
+            cout << "Reinserire il Valore, da tastiera." << endl;
+        }
     }
     return 0;
 }
