@@ -17,12 +17,7 @@ int main()
     for (int i = 0; i <= N; i++)
     {
         cout << "Indice: " << i << endl;
-        while (vett[i] <= 0)
-        {
-            cin >> vett[i];
-            cout << "Il Valore dell'Indice: " << i << " non è corretto, poiché minore di 0." << endl;
-            cout << "Reinserire il Valore, da tastiera." << endl;
-        }
+        cin >> vett[i];
     }
     return 0;
 }
