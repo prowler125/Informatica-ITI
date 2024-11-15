@@ -9,21 +9,26 @@ Infine stampa il vettore*/
 #include <iostream>
 using namespace std;
 
-int stampaVett(const int &, int &);
+void stampaVett(int[], int);
 
 int main()
 {
     const int N = 10;
     int vett[N];
     cout << "Dammi i valori del Vettore, da tastiera: " << endl;
-    for (int i = 0; i <= N; i++)
+    for (int i = 0; i < N; i++)
     {
-        cin >> vett[i];
+        vett[i] = i * 5;
     }
+    stampaVett(vett, N);
     return 0;
 }
 
-int stampaVett(const int &N, int *vett)
+void stampaVett(int vett[], int N)
 {
-    cout << "Ecco il Vettore: " << vett[N];
+    cout << "Ecco il Vettore: ";
+    for (int i = 0; i < N; i++)
+    {
+        cout << vett[i] << "\t";
+    }
 }
