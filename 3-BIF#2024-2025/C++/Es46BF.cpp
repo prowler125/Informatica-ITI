@@ -1,6 +1,6 @@
 /*Ex 46B-F
 Somma   vettore
-Dichiara una funzione sommaVet che ha come parametri un vettore 
+Dichiara una funzione sommaVet che ha come parametri un vettore
 V di N elementi la sua dimensione N. Infine carica il vettore
 (caricaVet) e stampalo (stampaVet) poi stampa la somma*/
 
@@ -38,4 +38,7 @@ void caricaVett(int vett[], int N)
     {
         vett[i] = i * 5;
     }
+}
+void sommaVett(int vett[], int N)
+{
 }
