@@ -4,14 +4,6 @@ Dichiara una funzione caricaVet che ha come parametri un vettore
 V di N elementi la sua dimensione N. Infine Carica il vettore
 (con numeri a caso o con un ciclo for) con stampa vettore con stampaVet*/
 
-/*Ex 46-F
-
-Stampa vettore
-
-Dichiara una funzione che ha come parametri un
-vettore V di N elementi e la sua dimensione N.
-Infine stampa il vettore*/
-
 #include <iostream>
 using namespace std;
 
