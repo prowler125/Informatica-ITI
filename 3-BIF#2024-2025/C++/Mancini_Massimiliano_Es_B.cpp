@@ -11,9 +11,24 @@ III^B if
 #include <math.h>
 using namespace std;
 
-int pot(char, int);
+int pot(int, int);
 
 int main()
 {
+    int N = 0;
+    int X=0;
+    cout << "Dammi il valore di X, da tastiera: " << endl;
+    cin >> X;
+    cout << "Dammi il valore di N, da tastiera: " << endl;
+    cin >> N;
+    pot(X, N);
+    return 0;
+}
+
+int pot(int X, int N)
+{
+    int pote = 0;
+    pote = (pote + X) * N;
+    cout << pote;
     return 0;
 }

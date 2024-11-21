@@ -33,7 +33,7 @@ using namespace std;
 void triangolo(int, char);
 void cornice(int, char);
 void interno(int, char);
-int dispari(int, char);
+int dispari(int);
 int altezza(int, char);
 void angoli(int, char);
 void casuale(int, char);
@@ -44,7 +44,7 @@ int main()
     char X;
     cout << "Dammi il valore di N, da tastiera: " << endl;
     cin >> N;
-    if (5>=N>=15)
+    if (5 >= N >= 15)
     {
         cout << "Il Valore inserito risulta essere errato, riprovare: " << endl;
         cin >> N;
@@ -52,45 +52,55 @@ int main()
     cout << "Dammi anche un carattere di tipo Char, da tastiera: " << endl;
     cin >> X;
     triangolo(N, X);
+    system("pause");
+    cornice(N, X);
+    system("pause");
+    dispari(N);
+    system("pause");
     return 0;
 }
 
 void triangolo(int N, char X)
 {
-    for (int i = 1; i <= N; i++)
     {
-        for (int j = 1; j <= N; j++)
+        for (int k = 1; k <= N; k++)
         {
-            if (i == 1 || j == 1)
-            {
+            for (int i = 1; i <= k; i++)
                 cout << X << " ";
-            }
-            else
-            {
-                cout << " ";
-            }
+            cout << endl;
         }
     }
 }
 void cornice(int N, char X)
 {
-    for (int i = 1; i <= N; i++)
+
+    for (int k = 1; k <= N; k++)
     {
-        for (int j = 1; j <= N; j++)
+        for (int i = 1; i <= k; i++)
         {
-            if (i == 1 || i == N || j == 1 || j == N)
+            if (i == 1 || i == N || k == 1 || k == N)
                 cout << X << " ";
             else
                 cout << "  ";
         }
+        cout << X << " ";
         cout << endl;
     }
 }
 void interno()
 {
 }
-int dispari()
+int dispari(int N)
 {
+    if (N % 2 == 1)
+    {
+        cout << "Il numero " << N << " e' DISPARI" << endl;
+    }
+    if (N % 2 == 0)
+    {
+        cout << "Il numero " << N << " e' PARI" << endl;
+    }
+
     return 0;
 }
 int altezza()
