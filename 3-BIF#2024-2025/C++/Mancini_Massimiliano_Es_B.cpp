@@ -21,14 +21,14 @@ int main()
     cin >> X;
     cout << "Dammi il valore di N, da tastiera: " << endl;
     cin >> N;
-    pot(X, N);
+    cout<<pot(X, N)<<endl;
     return 0;
 }
 
 int pot(int X, int N)
 {
-    int pote = 0;
-    pote = (pote + X) * N;
-    cout << pote;
-    return 0;
+    if (N == 0)
+        return 1;
+    else
+        return X * pot(X, N - 1);
 }
