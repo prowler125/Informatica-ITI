@@ -7,6 +7,7 @@ caratteri X.
 
 Chiamarla nel main su numeri che
 vanno da 1 ad N con N letto da tastiera*/
+
 #include <iostream>
 using namespace std;
 
