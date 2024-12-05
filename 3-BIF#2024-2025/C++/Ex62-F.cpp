@@ -41,7 +41,12 @@ int main()
 
 void caricaVett()
 {
-    
+    cout << "Dammi il Valore dell'indice: 0" << endl;
+    for (int i = 0; i <= N; i++)
+    {
+        cout << "Indice: " << i << endl;
+        cin >> vett[i];
+    }
 }
 int stampaVett()
 {
