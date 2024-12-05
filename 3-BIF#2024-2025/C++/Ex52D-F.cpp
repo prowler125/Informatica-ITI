@@ -9,8 +9,7 @@ using namespace std;
 // prototipi
 void caricaVet(int[], int);
 void stampaVet(int[], int);
-void sommaVet(int[], int[], int);
-void molVet(int[], int[], int[], int);
+int *sommaVet(int[], int[], int);
 int main()
 {
 	const int N = 6;
@@ -49,9 +48,13 @@ void stampaVet(int vet[], int L)
 	cout << endl;
 }
 // funzione somma vettori
-void sommaVet(int a[], int b[], int L)
+int *sommaVet(int a[], int b[], int L)
 {
-	int c[L];
+	int *c = new int[L];
 	for (int k = 0; k < L; k++)
+	{
 		c[k] = a[k] + b[k];
+	}
+
+	return c;
 }
