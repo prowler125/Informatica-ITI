@@ -36,9 +36,10 @@ int main()
     cin >> R;
     cout << "Dammi le Colonne: " << endl;
     cin >> C;
-    cMat(mat, R, C);
     sMat(mat, R, C);
-    cout << endl;
+    cMat(mat, R, C);
+    system("pause");
+    sMat(mat, R, C);
     return 0;
 }
 
