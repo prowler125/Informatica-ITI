@@ -22,9 +22,53 @@ Infine stampa il vettore invertito  ( STAMPAVET)
 #include <iostream>
 using namespace std;
 
-void stampaVett();
-void caricaVett();
+// Funzione per stampare il vettore void stampavett(char[], int);
+
+// Funzione per caricare il vettore con caratteri casuali
+void caricaVett(char[], int);
+
+void stampaVett(char[], int);
+char *unoReverse(char[], int);
 
 int main()
 {
+    const int N = 10;
+    char vett[N];
+
+    // Carica e stampa il vettore
+    caricaVett(vett, N);
+    stampaVett(vett, N);
+
+    system("pause");
+
+    // Stampa il vettore ordinato
+    stampaVett(vett, N);
+
+    system("pause");
+}
+
+// Funzione per stampare il vettore
+void stampaVett(char vett[], int L)
+{
+    for (int k = 0; k < L; k++)
+        cout << vett[k] << "\t";
+    cout << endl;
+}
+
+// Funzione per caricare il vettore con caratteri casuali
+void caricavett(char vett[], int L)
+{
+    srand(time(NULL));
+    for (int k = 0; k < L; k++)
+        vett[k] = rand() % 26 + 65;
+}
+
+char *unoReverse(char vett[], int L)
+{
+    char *vett1 = new char[L];
+    for (int i = 0; i <= L; i++)
+    {
+        vett1[i] = vett[L - 1 - i];
+    }
+    return vett1;
 }
