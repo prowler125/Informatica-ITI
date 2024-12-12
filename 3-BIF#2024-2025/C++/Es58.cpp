@@ -66,10 +66,6 @@ void caricaVett(char vett[], int L)
     srand(time(NULL));
     for (int k = 0; k < L; k++)
         vett[k] = rand() % 26 + 65;
-    for (int k = 0; k < L; k++)
-    {
-        vett[k] = rand() % 26 + 65;
-    }
 }
 char *unoReverse(char vett[], int L)
 {
