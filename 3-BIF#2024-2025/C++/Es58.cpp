@@ -25,28 +25,23 @@ using namespace std;
 // Funzione per stampare il vettore void stampavett(char[], int);
 
 // Funzione per caricare il vettore con caratteri casuali
-void caricaVett(char vett[], int L)
-{
-    srand(time(NULL));
-    for (int k = 0; k < L; k++)
-        vett[k] = rand() % 26 + 65;
-}
+void caricaVett(char[], int);
 
 void stampaVett(char[], int);
 char *unoReverse(char[], int);
 
 int main()
 {
-    const int N = 10;
-    char vett[N];
+    const int L = 10;
+    char vett[L];
 
-    caricaVett(vett, N);
-    stampaVett(vett, N);
+    caricaVett(vett, L);
+    stampaVett(vett, L);
 
     system("pause");
 
-    char *invertedVett = unoReverse(vett, N);
-    stampaVett(invertedVett, N);
+    char *invertedVett = unoReverse(vett, L);
+    stampaVett(invertedVett, L);
     delete[] invertedVett;
 
     system("pause");
