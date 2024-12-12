@@ -40,13 +40,11 @@ int main()
     const int N = 10;
     char vett[N];
 
-    // Carica e stampa il vettore
     caricaVett(vett, N);
     stampaVett(vett, N);
 
     system("pause");
 
-    // Invert the array and print it
     char *invertedVett = unoReverse(vett, N);
     stampaVett(invertedVett, N);
     delete[] invertedVett;
@@ -54,7 +52,6 @@ int main()
     system("pause");
 }
 
-// Funzione per stampare il vettore
 void stampaVett(char vett[], int L)
 {
     for (int k = 0; k < L; k++)
