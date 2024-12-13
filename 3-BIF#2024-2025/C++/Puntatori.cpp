@@ -3,10 +3,9 @@
 #include <string.h>
 #include <time.h>
 #include <iostream>
+using namespace std;
 #define MaxR 20
 #define MaxC 20
-
-using namespace std;
 
 int main()
 {
