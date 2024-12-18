@@ -26,66 +26,57 @@ void caricaVett(int vett[], int N);
 int stampaVett(int vett[], int N);
 void scambiaVett(int vett[], int i, int j);
 void ordinaVett(int vett[], int N);
-int stampaVettOrd(int vett[], int N);
 
 int main()
 {
     const int N = 10;
-    for (int i = 0; i < N; i++)
-
-        for (int i = 0; i <= N; i++)
-        {
-            vett[i] = 0;
-        }
+    int vett[N];
+    caricaVett(vett, N);
+    cout << "Vettore caricato: ";
+    stampaVett(vett, N);
+    ordinaVett(vett, N);
+    cout << "Vettore ordinato: ";
+    stampaVett(vett, N);
 
     return 0;
-    void caricaVett(int vett[], int N)
+}
+void caricaVett(int vett[], int N)
+{
+    cout << "Dammi il Valore dell'indice: " << endl;
+    for (int i = 0; i < N; i++)
     {
-        cout << "Dammi il Valore dell'indice: 0" << endl;
-        for (int i = 0; i < N; i++)
-        {
-            cout << "Indice: " << i << endl;
-            cin >> vett[i];
-        }
+        cout << "Indice: " << i << endl;
+        cin >> vett[i];
     }
+}
 
-    int stampaVett(int vett[], int N)
+int stampaVett(int vett[], int N)
+{
+    for (int i = 0; i < N; i++)
     {
-        for (int i = 0; i < N; i++)
-        {
-            cout << vett[i] << " ";
-        }
-        cout << endl;
-        return 0;
+        cout << vett[i] << " ";
     }
+    cout << endl;
+    return 0;
+}
 
-    void scambiaVett(int vett[], int i, int j)
-    {
-        int temp = vett[i];
-        vett[i] = vett[j];
-        vett[j] = temp;
-    }
+void scambiaVett(int vett[], int i, int j)
+{
+    int temp = vett[i];
+    vett[i] = vett[j];
+    vett[j] = temp;
+}
 
-    void ordinaVett(int vett[], int N)
+void ordinaVett(int vett[], int N)
+{
+    for (int i = 0; i < N - 1; i++)
     {
-        for (int i = 0; i < N - 1; i++)
+        for (int j = i + 1; j < N; j++)
         {
-            for (int j = i + 1; j < N; j++)
+            if (vett[i] > vett[j])
             {
-                if (vett[i] > vett[j])
-                {
-                    scambiaVett(vett, i, j);
-                }
+                scambiaVett(vett, i, j);
             }
         }
     }
-
-    int stampaVettOrd(int vett[], int N)
-    {
-        ordinaVett(vett, N);
-        stampaVett(vett, N);
-        return 0;
-    }
-    nt stampaVettOrd()
-    {
-    }
+}
