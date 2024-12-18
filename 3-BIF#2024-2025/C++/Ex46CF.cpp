@@ -11,7 +11,7 @@ Nel main usa le varie funzioni poi stampa la media e il massimo del Vettore
 #include <math.h>
 using namespace std;
 
-int maxVett(int[], int);\
+int maxVett(int[], int);
 int mediaVett(int[], int);
 
 int main()
