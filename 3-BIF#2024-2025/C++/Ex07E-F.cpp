@@ -7,6 +7,7 @@ quadrato di lato N fatto di caratteri X.
 
 Chiamare nel main su numeri che vanno da 1 ad N,
 con N letto da tastiera, FRAME, CENTER.
+
 */
 
 #include <math.h>
