@@ -21,39 +21,71 @@ Allo scopo ORDINAVETT usa una funzione SCAMBIAVETT.
 
 using namespace std;
 
-void caricaVett();
-int stampaVett();
-void scambiaVett();
-int stampaVettOrd();
+const int N = 10;
+void caricaVett(int vett[], int N);
+int stampaVett(int vett[], int N);
+void scambiaVett(int vett[], int i, int j);
+void ordinaVett(int vett[], int N);
+int stampaVettOrd(int vett[], int N);
 
 int main()
 {
     const int N = 10;
-    int vett[N];
+    for (int i = 0; i < N; i++)
 
-    for (int i = 0; i <= N; i++)
-    {
-        vett[i] = 0;
-    }
+        for (int i = 0; i <= N; i++)
+        {
+            vett[i] = 0;
+        }
 
     return 0;
-}
-
-void caricaVett()
-{
-    cout << "Dammi il Valore dell'indice: 0" << endl;
-    for (int i = 0; i <= N; i++)
+    void caricaVett(int vett[], int N)
     {
-        cout << "Indice: " << i << endl;
-        cin >> vett[i];
+        cout << "Dammi il Valore dell'indice: 0" << endl;
+        for (int i = 0; i < N; i++)
+        {
+            cout << "Indice: " << i << endl;
+            cin >> vett[i];
+        }
     }
-}
-int stampaVett()
-{
-}
-void scambiaVett()
-{
-}
-int stampaVettOrd()
-{
-}
+
+    int stampaVett(int vett[], int N)
+    {
+        for (int i = 0; i < N; i++)
+        {
+            cout << vett[i] << " ";
+        }
+        cout << endl;
+        return 0;
+    }
+
+    void scambiaVett(int vett[], int i, int j)
+    {
+        int temp = vett[i];
+        vett[i] = vett[j];
+        vett[j] = temp;
+    }
+
+    void ordinaVett(int vett[], int N)
+    {
+        for (int i = 0; i < N - 1; i++)
+        {
+            for (int j = i + 1; j < N; j++)
+            {
+                if (vett[i] > vett[j])
+                {
+                    scambiaVett(vett, i, j);
+                }
+            }
+        }
+    }
+
+    int stampaVettOrd(int vett[], int N)
+    {
+        ordinaVett(vett, N);
+        stampaVett(vett, N);
+        return 0;
+    }
+    nt stampaVettOrd()
+    {
+    }
