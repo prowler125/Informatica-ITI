@@ -11,11 +11,14 @@ int funzFibo(int, int);
 
 int main()
 {
-    funzFibo();
+    int fn1 = 1, fn2 = 0;
+    funzFibo(fn1, fn2);
     return 0;
 }
 int funzFibo(int fn1, int fn2)
 {
+    fn1 = 1;
+    fn2 = 0;
     int numTot = 0;
     cout << "Con quanti numeri vuoi fare il calcolo? " << endl;
     cin >> numTot;
