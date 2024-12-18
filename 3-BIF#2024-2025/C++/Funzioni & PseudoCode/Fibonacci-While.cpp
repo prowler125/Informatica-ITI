@@ -1,4 +1,5 @@
-/*Creare la sequenza di Fibonacci con n numeri*/
+/*
+Creare la sequenza di Fibonacci con n numeri*/
 
 #include <iostream>
 using namespace std;
