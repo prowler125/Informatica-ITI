@@ -25,7 +25,26 @@ using namespace std;
 void carMat(int[MaxR][MaxC], int, int);
 void staMat(int[MaxR][MaxC], int, int);
 int somRighe(int[MaxR][MaxC], int, int);
-void staVett(int[MaxR][MaxC], int, int);
+void staVett(int mat[MaxR][MaxC], int R, int C)
+{
+    int N = 10;
+    int vett[N];
+    for (int j = 0; j < MaxR; j++)
+    {
+        for (int i = 0; i < R; i++)
+        {
+            for (int k = 0; k < C; k++)
+            {
+                vett[j] = vett[j] + mat[i][k];
+                cout << vett[j];
+            }
+        }
+
+        for (int k = 0; k < N; k++)
+            cout << vett[k] << "\t";
+        cout << endl;
+    }
+}
 void ordVett(int[], int, int);
 void scambia(int &, int &);
 
