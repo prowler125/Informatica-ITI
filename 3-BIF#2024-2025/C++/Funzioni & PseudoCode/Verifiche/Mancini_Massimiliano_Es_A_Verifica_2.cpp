@@ -47,7 +47,7 @@ int main()
     staMat(mat, R, C);
     system("pause");
     staVett(mat, R, C, N);
-    *punt = somRighe(mat, R, C);
+    somRighe(mat, R, C);
     ordVett(vett, R, N);
     return 0;
 }
@@ -79,9 +79,9 @@ void carMat(int mat[MaxR][MaxC], int R, int C)
 
 int somRighe(int mat[MaxR][MaxC], int R, int C)
 {
-    int *= new[R];
+    int N = 0;
+    int vett[N];
     int sr = 0;
-
     for (int j = 0; j <= MaxR; j++)
     {
         for (int i = 0; i < R; i++)
