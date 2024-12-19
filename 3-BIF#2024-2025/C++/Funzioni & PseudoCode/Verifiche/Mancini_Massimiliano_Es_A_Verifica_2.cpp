@@ -79,7 +79,7 @@ void carMat(int mat[MaxR][MaxC], int R, int C)
 
 int somRighe(int mat[MaxR][MaxC], int R, int C)
 {
-    int *vett = new[R];
+    int *= new[R];
     int sr = 0;
 
     for (int j = 0; j <= MaxR; j++)
