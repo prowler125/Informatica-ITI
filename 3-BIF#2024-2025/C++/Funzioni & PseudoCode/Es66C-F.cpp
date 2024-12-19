@@ -11,7 +11,7 @@ NB: se esiste un centro delle diagonali evitare di considerarlo 2 volte
 Aggiungi anche funzioni: cornice, angoli, centro, per stampare:
 cornice
 angoli
-centro ( solo se matrice quadrata e  con lato dispari), usa funzione dispari*/
+centro (solo se matrice quadrata e  con lato dispari), usa funzione dispari*/
 
 #include <iostream>
 using namespace std;
