@@ -1,5 +1,4 @@
 /*
-
 2° Verifica di Informatica
 
 Ex A
