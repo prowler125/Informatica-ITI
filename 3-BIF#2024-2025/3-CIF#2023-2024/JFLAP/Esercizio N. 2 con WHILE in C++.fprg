@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mancini_ma"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-03 09:10:38 "/>
+        <attribute name="created" value="bWFuY2luaV9tYTtZMS0xMzsyMDIzLTAzLTAzOyIwODoxNzozNiAiOzI1MTI="/>
+        <attribute name="edited" value="bWFuY2luaV9tYTtZMS0xMzsyMDIzLTAzLTAzOyIwOToxMDozOCAiOzQ7MjYxOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Calcolare la media degli stipendi dei dipendenti di un'azienda, acquisiti da tastiera con una ripetizione fino a quando non si inserisce il valore -1 per segnalare la fine dell'input dei dati&quot;" newline="True"/>
+            <declare name="Somma, n1, n2, n3, n4, n5, Stipendi" type="Integer" array="False" size=""/>
+            <declare name="Media" type="Real" array="False" size=""/>
+            <assign variable="Stipendi" expression="0"/>
+            <output expression="&quot;Dimmi lo stipendio del primo&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Dimmi lo stipendio del secondo&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Dimmi lo stipendio del terzo&quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Dimmi lo stipendio del quarto&quot;" newline="True"/>
+            <input variable="n4"/>
+            <output expression="&quot;Dimmi lo stipendio del quinto&quot;" newline="True"/>
+            <input variable="n5"/>
+        </body>
+    </function>
+</flowgorithm>
