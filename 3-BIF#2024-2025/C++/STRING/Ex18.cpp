@@ -17,27 +17,20 @@ int main()
 {
     string A, B, C;
 
-    // Initialize A
     A = "Ciao";
 
-    // Read B
     cout << "Immetti una stringa";
     cin >> B;
 
-    // Concatenate A and B into C
     C = A + B;
 
-    // Print C
     cout << "C è: " << C << endl;
 
-    // Print the length of C
     cout << "Lunghezza di C: " << C.length() << endl;
 
-    // Extract a substring from C
     string substring = C.substr(2, 4);
     cout << "La sottostring è: " << substring << endl;
 
-    // Replace a substring in C
     string replacement = "mondo";
     size_t pos = C.find(substring);
     if (pos != string::npos)
@@ -46,7 +39,6 @@ int main()
     }
     cout << "La stringa C dopo il rimpiazzamento " << C << endl;
 
-    // Check if a string read from the keyboard is present in C
     string search;
     cout << "Immetti una stringa da cercare in C";
     cin >> search;
@@ -59,7 +51,6 @@ int main()
         cout << "Stringa non trovata" << endl;
     }
 
-    // Print C as a char array
     const char *charArray = C.c_str();
     cout << "C è un array di char: " << charArray << endl;
 
