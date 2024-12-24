@@ -27,9 +27,98 @@ dichiarazioni e chiamate necessarie per:
 */
 
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
+
+#define MAX 20
+
+void carMat(int mat[MAX][MAX], int M, int N)
+{
+    srand(time(0));
+    for (int i = 0; i < M; ++i)
+    {
+        for (int j = 0; j < N; ++j)
+        {
+            mat[i][j] = rand() % 21 - 10;
+        }
+    }
+}
+
+void staMat(int mat[MAX][MAX], int M, int N)
+{
+    for (int i = 0; i < M; ++i)
+    {
+        for (int j = 0; j < N; ++j)
+        {
+            cout << mat[i][j] << "\t";
+        }
+        cout << endl;
+    }
+}
+
+void somRighe(int mat[MAX][MAX], int M, int N, int vet[MAX])
+{
+    for (int i = 0; i < M; ++i)
+    {
+        vet[i] = 0;
+        for (int j = 0; j < N; ++j)
+        {
+            if (mat[i][j] > 0)
+            {
+                vet[i] += mat[i][j];
+            }
+        }
+    }
+}
+
+void staVet(int vet[MAX], int M)
+{
+    for (int i = 0; i < M; ++i)
+    {
+        cout << vet[i] << "\t";
+    }
+    cout << endl;
+}
+
+void ordVet(int vet[MAX], int M)
+{
+    for (int i = 0; i < M - 1; ++i)
+    {
+        for (int j = i + 1; j < M; ++j)
+        {
+            if (vet[i] > vet[j])
+            {
+                scambia(vet[i], vet[j]);
+            }
+        }
+    }
+}
+
+void scambia(int &a, int &b)
+{
+    int temp = a;
+    a = b;
+    b = temp;
+}
 
 int main()
 {
+    int mat[MAX][MAX];
+    int vet[MAX];
+    int M = 5, N = 4;
+
+    carMat(mat, M, N);
+    cout << "Matrice caricata:" << endl;
+    staMat(mat, M, N);
+
+    somRighe(mat, M, N, vet);
+    cout << "Vettore delle somme delle righe:" << endl;
+    staVet(vet, M);
+
+    ordVet(vet, M);
+    cout << "Vettore ordinato:" << endl;
+    staVet(vet, M);
+
     return 0;
 }

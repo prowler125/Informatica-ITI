@@ -30,8 +30,22 @@ fare attenzione a tipi dato, Commenti, Nomi, Indentazione.
 #include <string>
 
 using namespace std;
+int main() {
+    double X;
+    cout << "Inserisci il valore in euro (due decimali): ";
+    cin >> X;
 
-int main()
-{
+    int euro = static_cast<int>(X);
+    int cent = round((X - euro) * 100);
+
+    int monete1Euro = euro;
+    int monete10Cent = cent / 10;
+    int monete1Cent = cent % 10;
+
+    cout << "moneta\te/c\tnr" << endl;
+    cout << "1\teuro\t" << monete1Euro << endl;
+    cout << "10\tcent\t" << monete10Cent << endl;
+    cout << "1\tcent\t" << monete1Cent << endl;
+
     return 0;
 }
