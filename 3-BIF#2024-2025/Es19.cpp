@@ -7,6 +7,7 @@ Stampa quante volte il carattere x compare in parola
 */
 
 #include <iostream>
+<<<<<<< HEAD
 #include <string>
 using namespace std;
 
@@ -31,3 +32,6 @@ int main()
 
     return 0;
 }
+=======
+using namespace std;
+>>>>>>> 90482b6 (refactor: Improve structure and fix syntax error in C++ code)
