@@ -19,15 +19,41 @@ using namespace std;
 
 int main()
 {
-    int max = 0;
-    char s1[max];
-    cout << "Inserisci un valore MASSIMO per la lettura della stringa (max 20): " << endl;
-    cin >> max;
-    do
+    const int MAX = 100;
+    char s1[MAX];
+
+    cout << "Inserisci la stringa: ";
+    cin.getline(s1, MAX);
+
+    int length = strlen(s1);
+    char s2[MAX];
+
+    for (int i = 0; i < length; i++)
     {
-        cout << "Errore! Il valore di max è troppo alto; " << endl;
-        cout << "Riprovare: " << endl;
-        cin >> max;
-    } while (max > 20);
+        s2[i] = s1[length - i - 1];
+    }
+    s2[length] = '\0';
+
+    cout << "Stringa originale: " << s1 << endl;
+    cout << "Stringa specchio: " << s2 << endl;
+
+    bool isPalindrome = true;
+    for (int i = 0; i < length; i++)
+    {
+        if (s1[i] != s2[i])
+        {
+            isPalindrome = false;
+            break;
+        }
+    }
+
+    if (isPalindrome)
+    {
+        cout << "La stringa è palindroma." << endl;
+    }
+    else
+    {
+        cout << "La stringa non è palindroma." << endl;
+    }
     return 0;
 }
