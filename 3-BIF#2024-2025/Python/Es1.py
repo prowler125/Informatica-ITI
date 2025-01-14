@@ -9,10 +9,10 @@ B=12
 C='ciao'
 D=0,2345
 print("Questo è A: ")
-print("A", A)
+print("A =", A)
 print("Questo è B: ")
-print("B", B)
+print("B =", B)
 B=A+1
 print("Questo è B, dopo la modifica: ", B)
-print("C", C)
-print("D", D)
+print("C =", C)
+print("D =", D)
