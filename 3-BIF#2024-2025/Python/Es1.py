@@ -16,3 +16,4 @@ B=A+1
 print("Questo è B, dopo la modifica: ", B)
 print("C =", C)
 print("D =", D)
+print()
