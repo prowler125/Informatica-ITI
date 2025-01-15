@@ -29,6 +29,7 @@ B=input("Dammi il primo Numero B: ")
 S=int(A)+int(B)
 print("Somma: ", S)
 """
+"""
 print("Quinta Parte:")
 #Chiedo la temperatura all'Utente
 temperatura=int(input("Immetti la temperatura: "))
@@ -38,3 +39,20 @@ elif(temperatura<10):
     print("Fa freddo!")
 else:
     print("Si sta bene")
+"""
+print("Sesta Parte:")
+#Confronto tra 3 numeri:
+A=input("Immetti A: ")
+B=input("Immetti B: ")
+C=input("Immetti C: ")
+if(A>B):
+    #print(f"A = {A} è maggiore di B = {B}")
+    if(A>C):
+            print(f"A = {A} è maggiore di B = {B} ed è maggiore anche di C = {C}")
+    else:
+        print(f"A = {A} è maggiore di B = {B} ed è maggiore anche di C = {C}")
+else:
+    if(B>C):
+        print(f"B = {B} è maggiore di A = {A} ed è maggiore anche di C = {C}")
+    else:
+        print(f"A = {C} è maggiore di B = {A} ed è maggiore anche di C = {B}")
