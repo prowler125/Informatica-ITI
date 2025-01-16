@@ -15,7 +15,6 @@ Nel Main:
 
 #include <iostream>
 #include <string>
-#include <vector>
 #include <math.h>
 #include <cmath>
 using namespace std;
@@ -30,24 +29,22 @@ struct Agenda
 
 int main()
 {
-    vector<Agenda> rubrica;
     int N = 3;
+    Agenda rubrica[N];
 
     for (int i = 0; i < N; i++)
     {
-        Agenda agenda;
         cout << "Dammi il Nome: " << endl;
-        cin >> agenda.nome;
+        cin >> rubrica[i].nome;
         cout << "Dammi il Cognome: " << endl;
-        cin >> agenda.cognome;
+        cin >> rubrica[i].cognome;
         cout << "Inserisci il tuo prefisso per FISSO: " << endl;
-        cin >> agenda.numFisso;
+        cin >> rubrica[i].numFisso;
         cout << "Inserisci il tuo prefisso per CELLULARE: " << endl;
-        cin >> agenda.numCell;
-        rubrica.push_back(agenda);
+        cin >> rubrica[i].numCell;
     }
     cout << "Rubrica telefonica:" << endl;
-    for (int i = 0; i < rubrica.size(); i++)
+    for (int i = 0; i < N; i++)
     {
         cout << "Voce " << i + 1 << ":" << endl;
         cout << "Nome: " << rubrica[i].nome << endl;
@@ -56,7 +53,20 @@ int main()
         cout << "Numero cellulare: " << rubrica[i].numCell << endl;
     }
 
+    string cognomeCercato;
+    cout << "Inserisci un cognome da cercare: " << endl;
+    cin >> cognomeCercato;
+
     int posizione = -1;
+    for (int i = 0; i < N; i++)
+    {
+        if (rubrica[i].cognome == cognomeCercato)
+        {
+            posizione = i;
+            break;
+        }
+    }
+
     if (posizione != -1)
     {
         cout << "Voce di rubrica trovata alla posizione " << posizione << ":" << endl;
