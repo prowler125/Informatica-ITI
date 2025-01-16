@@ -15,7 +15,7 @@ Nel Main:
 
 #include <iostream>
 #include <string>
-#include <vector> // Add this line
+#include <vector>
 #include <math.h>
 #include <cmath>
 using namespace std;
@@ -38,7 +38,7 @@ int main()
         Agenda agenda;
         cout << "Dammi il Nome: " << endl;
         cin >> agenda.nome;
-        cout << "Dammi il Congome: " << endl;
+        cout << "Dammi il Cognome: " << endl;
         cin >> agenda.cognome;
         cout << "Inserisci il tuo prefisso per FISSO: " << endl;
         cin >> agenda.numFisso;
@@ -46,20 +46,17 @@ int main()
         cin >> agenda.numCell;
         rubrica.push_back(agenda);
     }
-    string cognomeCercato;
-    cout << "Inserisci il cognome da cercare: " << endl;
-    cin >> cognomeCercato;
-
-    int posizione = -1;
+    cout << "Rubrica telefonica:" << endl;
     for (int i = 0; i < rubrica.size(); i++)
     {
-        if (rubrica[i].cognome == cognomeCercato)
-        {
-            posizione = i;
-            break;
-        }
+        cout << "Voce " << i + 1 << ":" << endl;
+        cout << "Nome: " << rubrica[i].nome << endl;
+        cout << "Cognome: " << rubrica[i].cognome << endl;
+        cout << "Numero fisso: " << rubrica[i].numFisso << endl;
+        cout << "Numero cellulare: " << rubrica[i].numCell << endl;
     }
 
+    int posizione = -1;
     if (posizione != -1)
     {
         cout << "Voce di rubrica trovata alla posizione " << posizione << ":" << endl;
