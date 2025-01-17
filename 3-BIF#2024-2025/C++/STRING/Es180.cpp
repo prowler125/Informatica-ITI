@@ -22,7 +22,7 @@ using namespace std;
 int main()
 {
     int N = 0;
-    char X;
+    string X;
     cout << "Avvio della sezione di input dei dati..." << endl;
     cout << "Premere invio quando si è pronti..." << endl;
     system("PAUSE");
@@ -40,17 +40,33 @@ int main()
         cout << "S prega di reinserire il valore per la grandezza di N: " << endl;
         cin >> N;
     } while (count == 1);
-    char frase[N];
+
+    string frase;
     cout << "Si prega di inserire una FRASE, qui sotto: " << endl;
-    cin.getline(frase, N);
+    getline(cin, frase);
     cout << "Inizio del calcolo della lunghezza della frase: " << frase << endl;
     cout << "Premere invio quando si è pronti..." << endl;
     system("PAUSE");
-    int length = strlen(frase);
+    int length = frase.size();
     cout << "La lunghezza della FRASE: " << frase << " è: " << length << endl;
     cout << "Premere invio quando si è pronti..." << endl;
     cout << "Si prega di inserire, senza Spazi, una PAROLA per X: " << endl;
     cin >> X;
-    
+    int pos = -1;
+    int conta = 0, indice = 0, k = 0;
+    // Ciclo FOR ricerca
+    while (indice != string::npos)
+    {
+        indice = frase.find(X, k);
+        k = indice + 1;
+        if (indice != string::npos)
+        {
+            cout << "La posizione della PAROLA: " << X << " è: " << indice << endl;
+            conta++;
+        }
+    }
+
+    int C = frase.find(X, 0);
+
     return 0;
 }
