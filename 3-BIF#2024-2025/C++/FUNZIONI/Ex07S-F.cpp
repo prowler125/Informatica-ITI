@@ -125,6 +125,7 @@ void diag1(int num, char x)
             else
                 cout << "  ";
         cout << endl;
+        
     }
     cout << endl;
 }
