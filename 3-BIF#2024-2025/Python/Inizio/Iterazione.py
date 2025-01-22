@@ -1,3 +1,4 @@
 """
 Parte relativa all'Iterazione
+
 """
