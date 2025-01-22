@@ -6,7 +6,7 @@ print(1, 2, 3, sep='|')
 A=10
 print(A)
 print("Seconda Parte: ")
-A=10 
+A=10
 B=12
 C='ciao'
 D=0,2345
