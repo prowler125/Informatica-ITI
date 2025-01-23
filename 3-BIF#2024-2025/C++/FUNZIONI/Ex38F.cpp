@@ -8,15 +8,20 @@ Idem ex38, ma definendo una funzione FATTOR
 
 using namespace std;
 
-int FATTOR(int n) {
-    if (n <= 1) {
+int FATTOR(int n)
+{
+    if (n <= 1)
+    {
         return 1;
-    } else {
+    }
+    else
+    {
         return n * FATTOR(n - 1);
     }
 }
 
-int main() {
+int main()
+{
     int num;
     cout << "Inserisci un numero: ";
     cin >> num;
