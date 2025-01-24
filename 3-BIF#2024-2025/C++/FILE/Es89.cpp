@@ -1,7 +1,8 @@
 /*
 Ex89 File leggi parole
 Vedi libro pag 222
-Leggi parole una alla volta da un file dati.txt e stampale andando a capo ogni volta
+Leggi parole una alla volta da un file
+dati.txt e stampale andando a capo ogni volta
 */
 
 #include <iostream>

@@ -1,7 +1,7 @@
 /*
-Ex89B File leggi righe
-Come Ex 89, ma leggi una riga alla
-volta e stampala andando a capo
+Ex89C File leggi caratteri
+Tipo 89 ma leggi un carattere alla
+volta e stampa senza andare a capo
 */
 
 #include <iostream>
@@ -21,10 +21,16 @@ int main()
         return 1;
     }
 
-    string parola;
+    int N = 40;
+
+    char *parola = new char[N + 1];
+    delete[] parola;
     while (file >> parola)
     {
-        cout << parola << " ";
+        for (int k = 0; k <= N; k++)
+        {
+            cout << parola[k] << endl;
+        }
     }
 
     file.close();
