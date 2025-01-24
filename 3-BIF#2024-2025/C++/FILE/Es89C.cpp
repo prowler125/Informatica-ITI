@@ -14,25 +14,21 @@ using namespace std;
 
 int main()
 {
-    ifstream file("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\dati.txt");
-    if (!file.is_open())
+    char c;
+    fstream f1("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\dati.txt", ios::in);
+
+    if (f1.fail())
     {
-        cerr << "Errore nell'apertura del file" << endl;
         return 1;
     }
+    system("CLS");
 
-    int N = 40;
-
-    char *parola = new char[N + 1];
-    delete[] parola;
-    while (file >> parola)
+    cout << "Il contenuto del file è riportato qui di seguito: " << endl;
+    while (!f1.eof())
     {
-        for (int k = 0; k <= N; k++)
-        {
-            cout << parola[k] << endl;
-        }
+        c = f1.get();
+        cout << c << endl;
     }
 
-    file.close();
     return 0;
 }
