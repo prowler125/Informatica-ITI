@@ -15,7 +15,7 @@ using namespace std;
 
 int main()
 {
-    ifstream file("93_testo.txt");
+    ifstream file("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\.TXT\\\\93_testo.txt");
 
     if (!file.is_open())
     {
