@@ -14,7 +14,7 @@ using namespace std;
 
 int main()
 {
-    ifstream file("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\dati.txt");
+    ifstream file("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\.TXT\\dati.txt");
     if (!file.is_open())
     {
         cerr << "Errore nell'apertura del file" << endl;

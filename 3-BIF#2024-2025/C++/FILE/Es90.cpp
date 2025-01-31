@@ -19,7 +19,7 @@ using namespace std;
 
 int main()
 {
-    ifstream inputFile("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\ingresso.txt");
+    ifstream inputFile("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\.TXT\\ingresso.txt");
     if (!inputFile)
     {
         cerr << "Errore nell'apertura del file di ingresso." << endl;
@@ -31,7 +31,7 @@ int main()
     cin >> N;
 
     int number;
-    ofstream outputFile("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\uscita.txt", ios::out);
+    ofstream outputFile("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\.TXT\\uscita.txt", ios::out);
     if (!outputFile)
     {
         cerr << "Errore nell'apertura del file di uscita." << endl;
@@ -46,7 +46,7 @@ int main()
     inputFile.clear();
     inputFile.seekg(0, ios::beg);
 
-    outputFile.open("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\uscita.txt", ios::app);
+    outputFile.open("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\.TXT\\uscita.txt", ios::app);
     if (!outputFile)
     {
         cerr << "Errore nell'apertura del file di uscita." << endl;

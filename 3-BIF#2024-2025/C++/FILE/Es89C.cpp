@@ -15,7 +15,7 @@ using namespace std;
 int main()
 {
     char c;
-    fstream f1("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\dati.txt", ios::in);
+    fstream f1("C:\\Users\\mancini_ma\\Documents\\Informatica-ITI\\3-BIF#2024-2025\\C++\\FILE\\.TXT\\dati.txt", ios::in);
 
     if (f1.fail())
     {

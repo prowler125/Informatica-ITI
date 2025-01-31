@@ -9,6 +9,10 @@ Non serve la riga di intestazione
 
 #include <iostream>
 #include <fstream>
+#include <cmath>
+#include <math.h>
+#include <string>
+#include <string.h>
 using namespace std;
 
 int main()
