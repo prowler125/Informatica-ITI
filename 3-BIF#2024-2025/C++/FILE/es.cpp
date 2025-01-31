@@ -15,7 +15,7 @@ int main()
 
     int count = 0;
     char ch;
-    ifstream file("93_ingresso.txt");
+    ifstream file("93_testo.txt");
 
     if (file.fail())
     {
@@ -31,6 +31,6 @@ int main()
 
     file.close();
 
-    cout << "Questo il numero dei caratteri trovati: " << count << endl;
+    cout << "Questo Ã¨ il numero dei caratteri trovati: " << count << endl;
     return 0;
 }
