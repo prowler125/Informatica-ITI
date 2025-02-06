@@ -1,61 +1,61 @@
 /*
-Ex 93-C
-File Conta 2 caratteri
-Scrivere un programma che, ricevuto in ingresso un file chiamato “Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt” e
-un carattere digitato da tastiera dall’utente restituisca tramite la
-console quante volte quel carattere compare per due volte
-consecutive nel file “Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt”.
+Ex 96-F
+File: funzione Copia file
+Definisci una funzione copiaFileC che ha come parametri formali due oggetti file passati per riferimento:
+    1. F1 di ingresso;
+    2. F2 di uscita.
+La funzione copia per carattere i dati letti da F1 nel file F2.
+Poi definisci una funzione copiaFileR analoga alla precedente, ma che copia i dati per righe.
+Chiama nel main le due funzioni e verifica i risultati sui file fisici: in.txt, Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//out.txt, Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//outR.txt.
 */
 
-#include <iostream>
-#include <fstream>
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <string.h>
-using namespace std;
+// Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt
 
-int contaCaratteriConsecutivi(const string &, char);
-const string FILE_PATH = "Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt";
+#include <iostream>
+#include <fstream>
+using namespace std;
+void copiaFileC(ifstream &F1, ofstream &F2)
+{
+    char ch;
+    while (F1.get(ch))
+    {
+        F2.put(ch);
+    }
+}
+
+void copiaFileR(ifstream &F1, ofstream &F2)
+{
+    string line;
+    while (getline(F1, line))
+    {
+        F2 << line << endl;
+    }
+}
 
 int main()
 {
-    string filename = "Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt";
-    char targetChar;
+    ifstream inputFile("Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//in.txt");
+    ofstream outputFile("Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//out.txt");
+    ofstream outputRFile("Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//outR.txt");
 
-    cout << "Inserisci un carattere: ";
-    cin >> targetChar;
+    if (inputFile && outputFile && outputRFile)
+    {
+        copiaFileC(inputFile, outputFile);
+        inputFile.close();
+        outputFile.close();
 
-    int conteggioConsecutivo = contaCaratteriConsecutivi(filename, targetChar);
-    cout << "Il carattere '" << targetChar << "' appare consecutivamente "
-         << conteggioConsecutivo << " volte nel file." << endl;
+        inputFile.open("in.txt");
+        copiaFileR(inputFile, outputRFile);
+        inputFile.close();
+        outputRFile.close();
+
+        cout << "File copiato con successo." << endl;
+    }
+    else
+    {
+        cout << "Impossibile aprire i file." << endl;
+    }
 
     return 0;
-}
-
-int contaCaratteriConsecutivi(const string &filename, char targetChar)
-{
-    ifstream inputFile("Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt");
-    if (inputFile.fail())
-    {
-        cerr << "Impossibile aprire il file." << endl;
-        return -1;
-    }
-
-    char prevChar = '\0';
-    char currentChar;
-    int count = 0;
-
-    while (inputFile.get(currentChar))
-    {
-        if (currentChar == targetChar && currentChar == prevChar)
-        {
-            count++;
-        }
-        prevChar = currentChar;
-    }
-
-    inputFile.close();
-    return count;
 }
 
