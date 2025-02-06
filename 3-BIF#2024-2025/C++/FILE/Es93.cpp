@@ -15,7 +15,7 @@ int main()
 
     int count = 0;
     char ch;
-    ifstream file("93_ingresso.txt");
+    ifstream file("Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//93_ingresso.txt");
 
     if (file.fail())
     {
