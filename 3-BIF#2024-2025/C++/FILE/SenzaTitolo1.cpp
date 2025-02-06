@@ -16,11 +16,11 @@ consecutive nel file “input.txt”.
 using namespace std;
 
 int contaCaratteriConsecutivi(const string &, char);
-const string FILE_PATH = "Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt";
+const string FILE_PATH = "input.txt";
 
 int main()
 {
-    string filename = "Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt";
+    string filename = "input.txt";
     char targetChar;
 
     cout << "Inserisci un carattere: ";
@@ -35,7 +35,7 @@ int main()
 
 int contaCaratteriConsecutivi(const string &filename, char targetChar)
 {
-    ifstream inputFile("Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt");
+    ifstream inputFile("input.txt");
     if (inputFile.fail())
     {
         cerr << "Impossibile aprire il file." << endl;
