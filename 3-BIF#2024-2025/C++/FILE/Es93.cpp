@@ -2,7 +2,7 @@
 Ex 93
 File, conta caratteri
 Scrivere un programma che conta quanti
-caratteri ci sono nel file â€œ93_testo.txtâ€.
+caratteri ci sono nel file 93_ingresso.txt.
 */
 
 #include <iostream>
