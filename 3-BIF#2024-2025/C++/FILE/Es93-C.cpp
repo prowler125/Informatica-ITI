@@ -12,7 +12,7 @@ using namespace std;
 
 int contaCaratteriConsecutivi(const string &filename, char targetChar)
 {
-    ifstream inputFile(filename);
+    ifstream inputFile("Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt");
     if (!inputFile)
     {
         cerr << "Impossibile aprire il file." << endl;
