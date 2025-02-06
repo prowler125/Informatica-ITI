@@ -1,10 +1,10 @@
 /*
 Ex 93-C
 File Conta 2 caratteri
-Scrivere un programma che, ricevuto in ingresso un file chiamato “input.txt” e
+Scrivere un programma che, ricevuto in ingresso un file chiamato “Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt” e
 un carattere digitato da tastiera dall’utente restituisca tramite la
 console quante volte quel carattere compare per due volte
-consecutive nel file “input.txt”.
+consecutive nel file “Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt”.
 */
 
 #include <iostream>
@@ -16,11 +16,11 @@ consecutive nel file “input.txt”.
 using namespace std;
 
 int contaCaratteriConsecutivi(const string &, char);
-const string FILE_PATH = "input.txt";
+const string FILE_PATH = "Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt";
 
 int main()
 {
-    string filename = "input.txt";
+    string filename = "Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt";
     char targetChar;
 
     cout << "Inserisci un carattere: ";
@@ -35,7 +35,7 @@ int main()
 
 int contaCaratteriConsecutivi(const string &filename, char targetChar)
 {
-    ifstream inputFile("input.txt");
+    ifstream inputFile("Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt");
     if (inputFile.fail())
     {
         cerr << "Impossibile aprire il file." << endl;
