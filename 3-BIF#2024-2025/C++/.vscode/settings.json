@@ -3,6 +3,7 @@
         "*.embeddedhtml": "html",
         "fstream": "cpp",
         "iostream": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "*.tcc": "cpp"
     }
 }
