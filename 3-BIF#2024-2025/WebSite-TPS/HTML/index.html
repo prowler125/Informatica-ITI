@@ -1,40 +1,5 @@
-<!--Homepage:
-
-Titolo: "Rappresentazione delle Informazioni nei Sistemi Digitali"
-Introduzione: Una breve panoramica su come le informazioni vengono trasformate in dati digitali e sull'importanza di comprenderne i meccanismi.
-Menu di navigazione: Link alle sezioni specifiche del sito (Codifica dei caratteri, Codifica di immagini e suoni, Ridondanza e compressione).
-Sezione 1: Codifica dei caratteri alfanumerici
-
-Titolo: "La Magia dei Codici: Dai Caratteri ai Numeri"
-Spiegazione: Come i computer trasformano lettere, numeri e simboli in sequenze di bit.
-Esempi: Tabelle di codifica ASCII e Unicode, con esempi di come le lettere vengono convertite in codice binario.
-Curiosità: Un focus su codici particolari come il codice Morse, il codice a barre e il codice QR, con esempi interattivi.
-Sezione 2: Codifica di immagini, suoni e video
-
-Titolo: "Trasformare la Realtà in Pixel e Onde Sonore"
-Codifica delle immagini:*
-Spiegazione di concetti come pixel, risoluzione e profondità di colore.
-Esempi di formati immagine comuni (JPEG, PNG, GIF) e le loro caratteristiche.
-Possibilità di caricare un'immagine e visualizzarne le informazioni di codifica di base.
-Codifica dei suoni:*
-Spiegazione di concetti come campionamento e quantizzazione.
-Esempi di formati audio comuni (MP3, WAV) e le loro caratteristiche.
-Possibilità di ascoltare brevi clip audio e visualizzarne le informazioni di codifica.
-Codifica dei video:*
-Come vengono combinati immagini e suoni per creare video.
-Esempi di formati video comuni (MP4, AVI) e le loro caratteristiche.
-Sezione 3: Ridondanza e compressione dei dati
-
-Titolo: "Ottimizzare lo Spazio: Ridondanza e Compressione"
-Ridondanza dell'informazione:*
-Spiegare come a volte nei sistemi digitali vengono aggiunte informazioni extra per garantire l'integrità dei dati.
-Esempi di come la ridondanza viene utilizzata nei CD e nei codici identificativi.
-Compressione dei dati:*
-Perché è importante comprimere i file e come funziona la compressione.
-Tipi di compressione: lossless (senza perdita di qualità) e lossy (con perdita di qualità).
-Esempi di algoritmi di compressione comuni (ZIP, JPEG, MP3).-->
-
-<html lang="it">
+<!DOCTYPE html>
+<html lang="it"></html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -42,8 +7,6 @@ Esempi di algoritmi di compressione comuni (ZIP, JPEG, MP3).-->
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <script src="../JavaScript/gallery.js"></script>
-    <link rel="stylesheet" href="" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -59,25 +22,26 @@ Esempi di algoritmi di compressione comuni (ZIP, JPEG, MP3).-->
       <h1 class="h1">
         Rappresentazione delle informazioni nei Sistemi Digitali
       </h1>
-    </header>
-    <hgroup>
-      <div class="topnav">
+      <nav class="topnav">
         <a class="active" href="#about">Home</a>
         <a href="../HTML/alfaNum.html">La codifica dei caratteri</a>
         <a href="../HTML/imagesVideo.html">Immagini, Video e codifiche</a>
         <a href="../HTML/sound.html">La codifica dei Suoni</a>
         <a href="../HTML/compressionR.html">Ridondanza & compressione</a>
-      </div>
-
-      <article>
+      </nav>
+    </header>
+    <main>
+      <section>
         <h2>Introduzione</h2>
         <p>
           Una breve panoramica su come le informazioni vengono trasformate in
           dati digitali e sull'importanza di comprenderne i meccanismi.
         </p>
+      </section>
+      <section class="gallery-section">
         <div class="gallery">
-          <a target="_parent" .href="./images/byte.jpeg">
-            <img src="../images/byte.jpeg" width="800" height="200" />
+          <a target="_self" href="../images/byte.jpeg">
+            <img src="../images/byte.jpeg" alt="Byte" />
           </a>
           <div class="desc">
             Byte: Un gruppo di 8 bit, spesso usato come unità di misura per la
@@ -86,13 +50,8 @@ Esempi di algoritmi di compressione comuni (ZIP, JPEG, MP3).-->
         </div>
 
         <div class="gallery">
-          <a href="../images/immagini.png">
-            <img
-              src="../images/immagini.png"
-              alt="Forest"
-              width="800"
-              height="200"
-            />
+          <a target="_self" href="../images/immagini.png">
+            <img src="../images/immagini.png" alt="Codifica delle immagini" />
           </a>
           <div class="desc">
             Codifica delle immagini: Tecniche per rappresentare immagini
@@ -101,36 +60,28 @@ Esempi di algoritmi di compressione comuni (ZIP, JPEG, MP3).-->
         </div>
 
         <div class="gallery">
-          <a href="../images/video.jpeg">
-            <img
-              src="../images/video.jpeg"
-              alt="Northern Lights"
-              width="800"
-              height="200"
-            />
+          <a target="_self" href="../images/video.jpeg">
+            <img src="../images/video.jpeg" alt="Codifica video" />
           </a>
           <div class="desc">
             Codifica video: Tecniche per rappresentare video digitali, come MPEG
             e H.264.
           </div>
         </div>
+
         <div class="gallery">
-          <a target="_blank" href="../images/audio.png">
-            <img src="../images/audio.png" width="800" height="200" />
+          <a target="_self" href="../images/audio.png">
+            <img src="../images/audio.png" alt="Codifica audio" />
           </a>
           <div class="desc">
             Codifica audio: Tecniche per rappresentare suoni digitali, come PCM
             e MP3.
           </div>
         </div>
+
         <div class="gallery">
-          <a target="_blank" href="../images/analogDigital.png">
-            <img
-              src="../images/analogDigital.png"
-              alt="Mountains"
-              width="600"
-              height="400"
-            />
+          <a target="_self" href="../images/analogDigital.png">
+            <img src="../images/analogDigital.png" alt="Conversione da analogico a digitale" />
           </a>
           <div class="desc">
             Conversione da analogico a digitale: Il processo di trasformazione
@@ -138,16 +89,17 @@ Esempi di algoritmi di compressione comuni (ZIP, JPEG, MP3).-->
             digitalizzazione di una foto.
           </div>
         </div>
+
         <div class="gallery">
-          <a target="_blank" href="../images/compression.jpeg">
-            <img src="../images/compression.jpeg" width="800" height="200" />
+          <a target="_self" href="../images/compression.jpeg">
+            <img src="../images/compression.jpeg" alt="Compressione dei dati" />
           </a>
           <div class="desc">
             Compressione dei dati: Tecniche per ridurre la dimensione dei file
             digitali, come la compressione JPEG per le immagini.
           </div>
         </div>
-      </article>
-    </hgroup>
+      </section>
+    </main>
   </body>
 </html>
