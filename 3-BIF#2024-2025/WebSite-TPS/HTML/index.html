@@ -38,6 +38,12 @@ Esempi di algoritmi di compressione comuni (ZIP, JPEG, MP3).-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        />
+        <link rel="stylesheet" href="login.css" />
+        <link rel="stylesheet" href="loginNav.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -57,6 +63,7 @@ Esempi di algoritmi di compressione comuni (ZIP, JPEG, MP3).-->
     <hgroup>
       <div class="topnav">
         <a class="active" href="#about">Home</a>
+        <a href="../HTML/alfaNum.html">La codifica dei caratteri</a>
         <a href="../HTML/imagesVideo.html">Immagini, Video e codifiche</a>
         <a href="../HTML/sound.html">La codifica dei Suoni</a>
         <a href="../HTML/compressionR.html">Ridondanza & compressione</a>
@@ -70,5 +77,42 @@ Esempi di algoritmi di compressione comuni (ZIP, JPEG, MP3).-->
         </p>
       </article>
     </hgroup>
+        <div class="container" id="container">
+          <div class="form-container sign-up">
+            <form>
+              <h1>Sign Up</h1>
+              <span>Usa la tua Email per registrarti</span>
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <button>Iscriviti!</button>
+            </form>
+          </div>
+          <div class="form-container sign-in">
+            <form>
+              <h1>Sign In</h1>
+
+              <span>Usa la tua Email</span>
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <a href="#">Password dimenticata?</a>
+              <button>Accedi!</button>
+            </form>
+          </div>
+          <div class="toggle-container">
+            <div class="toggle">
+              <div class="toggle-panel toggle-left">
+                <h1>Bentornato/a!</h1>
+                <p>Immetti le informazioni necessarie per accedere</p>
+                <button class="hidden" id="login">Sign In</button>
+              </div>
+              <div class="toggle-panel toggle-right">
+                <h1>Salve, visitatore!</h1>
+                <p>Immetti le informazioni necessarie per registrarti</p>
+                <button class="hidden" id="register">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
   </body>
 </html>
