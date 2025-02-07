@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codifica dei Caratteri</title>
+    <link rel="stylesheet" href="../CSS/style.css"
+  </head>
+  <body>
+    <div class="container">
+      <h1>Codifica dei Caratteri</h1>
+      <p>
+        La codifica dei caratteri è un processo fondamentale nell'informatica
+        che permette ai computer di comprendere ed elaborare il testo che noi
+        umani utilizziamo per comunicare. Poiché i computer lavorano con numeri
+        binari (sequenze di 0 e 1), è necessario convertire i caratteri in un
+        formato numerico che le macchine possano interpretare. Nel corso degli
+        anni, sono stati sviluppati diversi sistemi di codifica, ognuno con le
+        proprie caratteristiche e finalità.
+      </p>
+      <div class="highlight">
+        <p>
+          Uno dei primi e più diffusi sistemi di codifica è l'ASCII (American
+          Standard Code for Information Interchange). Creato negli anni '60,
+          l'ASCII utilizza 7 bit per rappresentare 128 caratteri, tra cui le
+          lettere maiuscole e minuscole dell'alfabeto inglese, i numeri da 0 a 9
+          e alcuni simboli di punteggiatura. Ogni carattere ASCII corrisponde a
+          un numero decimale univoco, che può essere facilmente convertito in
+          codice binario. Ad esempio, la lettera "A" è rappresentata dal numero
+          decimale 65, che in binario corrisponde a 1000001. L'ASCII ha avuto un
+          impatto significativo sulla sintassi dei linguaggi di programmazione e
+          sulla marcatura del testo, ma la sua limitazione a soli 128 caratteri
+          ne ha ristretto l'ambito di applicazione, poiché non è in grado di
+          rappresentare i caratteri di molte lingue del mondo.
+        </p>
+      </div>
+      <p>
+        Per superare i limiti dell'ASCII e rappresentare i caratteri di tutte le
+        lingue del mondo, è stato creato Unicode. Unicode assegna un codice
+        univoco a ogni carattere, inclusi simboli matematici, punteggiatura e
+        caratteri di alfabeti non latini come il cinese, l'arabo e il
+        tailandese. Unicode è diventato lo standard di codifica accettato da
+        tutte le principali aziende informatiche ed è utilizzato in tutti i
+        principali sistemi operativi, browser e applicazioni.
+      </p>
+      <p>
+        UTF-8 (Unicode Transformation Format - 8-bit) è uno schema di codifica a
+        lunghezza variabile per Unicode. Utilizza da uno a quattro byte (da 8 a
+        32 bit) per rappresentare tutti i punti di codice Unicode validi. UTF-8
+        è particolarmente efficiente perché utilizza un numero di byte variabile
+        a seconda del carattere da codificare, risparmiando spazio di memoria.
+        Ad esempio, i caratteri comuni come "C" occupano solo 8 bit, mentre
+        caratteri più rari possono occupare fino a 32 bit. Grazie alla sua
+        efficienza e alla sua capacità di rappresentare un vasto repertorio di
+        caratteri, UTF-8 è diventato lo standard di codifica per le pagine web.
+      </p>
+      <p>
+        Oltre al codice binario, in informatica viene spesso utilizzato il
+        sistema di numerazione esadecimale (base-16). Il sistema esadecimale
+        utilizza 16 simboli: le cifre da 0 a 9 e le lettere da A a F. Ogni cifra
+        esadecimale corrisponde a una sequenza di 4 bit. Ad esempio, il numero
+        binario 1111 è rappresentato dalla cifra esadecimale F. L'esadecimale
+        offre un modo più compatto per rappresentare i valori binari,
+        semplificando la lettura e la scrittura del codice. Un esempio
+        dell'utilizzo dell'esadecimale in informatica sono i codici colore HTML.
+        In HTML, i colori sono definiti da una combinazione di rosso, verde e
+        blu, ognuno dei quali può assumere un valore da 0 a 255. Poiché 255 è il
+        valore massimo rappresentabile con un byte (8 bit), ogni componente di
+        colore può essere espressa con due cifre esadecimali. Ad esempio, il
+        codice colore #FF0000 rappresenta il rosso puro.
+      </p>
+      <p>
+        Oltre ai sistemi di codifica dei caratteri, in informatica e nella vita
+        quotidiana vengono utilizzati altri tipi di codici per rappresentare
+        informazioni. I codici a barre, ad esempio, sono utilizzati per
+        identificare prodotti e tracciare informazioni. Esistono diversi tipi di
+        codici a barre, come i codici lineari (1D) e i codici bidimensionali
+        (2D). I codici lineari sono quelli più comuni, utilizzati per la
+        scansione di prodotti al supermercato. I codici 2D, come i QR code,
+        possono contenere più informazioni e sono utilizzati in diverse
+        applicazioni, come la gestione delle scorte e i biglietti elettronici.
+        Nel settore medico, i codici a barre sono utilizzati per
+        l'identificazione dei pazienti e la gestione dei farmaci. I QR code
+        (Quick Response code) sono codici a barre bidimensionali che possono
+        essere letti da smartphone e tablet. I QR code sono utilizzati per
+        diverse applicazioni, come l'accesso a informazioni online, il pagamento
+        contactless e la creazione di guide museali interattive.
+      </p>
+      <p>
+        Un set di caratteri è un insieme di simboli testuali e grafici, ognuno
+        dei quali è associato a un codice numerico. I set di caratteri sono
+        fondamentali per garantire la compatibilità tra diverse piattaforme e
+        l'interoperabilità tra sistemi. La scelta del set di caratteri
+        appropriato è importante per la corretta visualizzazione ed elaborazione
+        del testo. Ad esempio, se un'applicazione utilizza un set di caratteri
+        diverso da quello in cui è stato codificato un testo, i caratteri
+        potrebbero apparire distorti o illeggibili. La necessità di
+        rappresentare i caratteri di diverse lingue e culture ha portato allo
+        sviluppo di Unicode. Unicode mira a fornire un punto di codice univoco
+        per tutti i caratteri del mondo, superando le limitazioni dei set di
+        caratteri più vecchi e consentendo la rappresentazione di testi
+        multilingue in modo coerente.
+      </p>
+    </div>
+  </body>
+</html>
