@@ -56,7 +56,10 @@ p {
   background-color: var(--secondary-color);
   border-radius: 10px;
   text-rendering: geometricPrecision;
-  font-family: Verdana, sans-serif;
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
   font-size: 1.125rem;
   color: var(--hover-text-color);
 }
