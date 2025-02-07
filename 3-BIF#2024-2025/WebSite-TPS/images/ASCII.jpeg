@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://www.vlsifacts.com/xmlrpc.php" />
+	<title>ASCII Code &#8211; VLSIFacts</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+		<!-- Meta Tag Manager -->
+		<meta name="google-site-verification" content="i1uUV3HWw3Wf73bP9p2VxRbs5s8JvMoQLHI8fBV_Kxo" />
+		<!-- / Meta Tag Manager -->
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel="alternate" type="application/rss+xml" title="VLSIFacts &raquo; Feed" href="https://www.vlsifacts.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="VLSIFacts &raquo; Comments Feed" href="https://www.vlsifacts.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="VLSIFacts &raquo; ASCII Code Comments Feed" href="https://www.vlsifacts.com/ascii-code/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.vlsifacts.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.vlsifacts.com/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://www.vlsifacts.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://www.vlsifacts.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.7.1' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css' type='text/css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<link rel='stylesheet' id='awsm-ead-public-css' href='https://www.vlsifacts.com/wp-content/plugins/embed-any-document/css/embed-public.min.css?ver=2.7.4' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='bbp-default-css' href='https://www.vlsifacts.com/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css?ver=2.6.11' type='text/css' media='all' />
+<link rel='stylesheet' id='wpProQuiz_front_style-css' href='https://www.vlsifacts.com/wp-content/plugins/wp-pro-quiz/css/wpProQuiz_front.min.css?ver=0.37' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-style-css' href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/ui-darkness/jquery-ui.css?ver=1.11.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-syntax-css-css' href='https://www.vlsifacts.com/wp-content/plugins/wp-syntax/css/wp-syntax.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='google_fonts-css' href='//fonts.googleapis.com/css?family=Cantata+One|Lato:300,700' type='text/css' media='all' />
+<link rel='stylesheet' id='theme_stylesheet-css' href='https://www.vlsifacts.com/wp-content/themes/magazine-basic/style.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font_awesome-css' href='https://www.vlsifacts.com/wp-content/themes/magazine-basic/library/css/font-awesome.css?ver=4.7.0' type='text/css' media='all' />
+<style id='jetpack_facebook_likebox-inline-css' type='text/css'>
+.widget_facebook_likebox {
+	overflow: hidden;
+}
+
+</style>
+<link rel='stylesheet' id='tablepress-default-css' href='https://www.vlsifacts.com/wp-content/plugins/tablepress/css/build/default.css?ver=2.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='social-logos-css' href='https://www.vlsifacts.com/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=13.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css' href='https://www.vlsifacts.com/wp-content/plugins/jetpack/css/jetpack.css?ver=13.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='core3.0-css' href='https://www.vlsifacts.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='core-Default3.0-css' href='https://www.vlsifacts.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/styles/shCoreDefault.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-Default3.0-css' href='https://www.vlsifacts.com/wp-content/plugins/wp-syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://www.vlsifacts.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.vlsifacts.com/wp-json/wp/v2/posts/2704" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.vlsifacts.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.1" />
+<link rel="canonical" href="https://www.vlsifacts.com/ascii-code/" />
+<link rel='shortlink' href='https://wp.me/p6lyy7-HC' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.vlsifacts.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vlsifacts.com%2Fascii-code%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.vlsifacts.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vlsifacts.com%2Fascii-code%2F&#038;format=xml" />
+	<style>img#wpstats{display:none}</style>
+		<style>
+#site-title a,#site-description{color:#040049 !important}
+#page{background-color:#fcfcfc}
+.entry-meta a,.entry-content a,.widget a{color:#00129e}
+</style>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("https://www.vlsifacts.com/wp-content/themes/magazine-basic/library/images/solid.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+</style>
+	
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="ASCII Code" />
+<meta property="og:url" content="https://www.vlsifacts.com/ascii-code/" />
+<meta property="og:description" content="ASCII codes are alphanumeric codes that represent numbers, alphabets, symbols and special characters in computers. ASCII stands for American Standard Code for Information Interchange. Whenever we p…" />
+<meta property="article:published_time" content="2023-02-28T02:00:13+00:00" />
+<meta property="article:modified_time" content="2023-02-28T02:06:14+00:00" />
+<meta property="og:site_name" content="VLSIFacts" />
+<meta property="og:image" content="https://www.vlsifacts.com/wp-content/uploads/2023/02/ASCII-Code.png" />
+<meta property="og:image:secure_url" content="https://i0.wp.com/www.vlsifacts.com/wp-content/uploads/2023/02/ASCII-Code.png?ssl=1" />
+<meta property="og:image:width" content="844" />
+<meta property="og:image:height" content="481" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:text:title" content="ASCII Code" />
+<meta name="twitter:image" content="https://www.vlsifacts.com/wp-content/uploads/2023/02/ASCII-Code.png?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="https://www.vlsifacts.com/wp-content/uploads/2016/04/cropped-Logo-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.vlsifacts.com/wp-content/uploads/2016/04/cropped-Logo-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.vlsifacts.com/wp-content/uploads/2016/04/cropped-Logo-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.vlsifacts.com/wp-content/uploads/2016/04/cropped-Logo-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-2704 single-format-standard custom-background">
+	<div id="page" class="grid  ">
+		<header id="header" class="row" role="banner">
+			<div class="c12">
+				<div id="mobile-menu">
+					<a href="#" class="left-menu"><i class="fa fa-reorder"></i></a>
+					<a href="#"><i class="fa fa-search"></i></a>
+				</div>
+				<div id="drop-down-search"><form role="search" method="get" class="search-form" action="https://www.vlsifacts.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></div>
+
+								<div class="title-logo-wrapper fl">
+										<div class="header-group">
+												<div id="site-title"><a href="https://www.vlsifacts.com" title="VLSIFacts" rel="home">VLSIFacts</a></div>
+						<div id="site-description">Let&#039;s Program the Transistors</div>					</div>
+				</div>
+
+				
+				<div id="nav-wrapper">
+					<div class="nav-content">
+						<nav id="site-navigation" class="menus clearfix" role="navigation">
+							<h3 class="screen-reader-text">Main menu</h3>
+							<a class="screen-reader-text" href="#primary" title="Skip to content">Skip to content</a>
+							<div id="main-menu" class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-36"><a href="https://www.vlsifacts.com/">Home</a>
+<li id="menu-item-83" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children sub-menu-parent menu-item-83"><a href="https://www.vlsifacts.com/category/dhd/">DHD</a>
+<ul class="sub-menu">
+	<li id="menu-item-84" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-84"><a href="https://www.vlsifacts.com/category/dhd/de/">Digital Electronics</a>
+	<li id="menu-item-2062" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2062"><a href="https://www.vlsifacts.com/category/dhd/fault-tolerant-system-design/">Fault Tolerant System Design</a>
+	<li id="menu-item-1438" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1438"><a href="https://www.vlsifacts.com/category/dhd/tlm/">TLM</a>
+	<li id="menu-item-85" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-85"><a href="https://www.vlsifacts.com/category/dhd/verification/">Verification</a>
+	<li id="menu-item-86" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-86"><a href="https://www.vlsifacts.com/category/dhd/verilog/">Verilog</a>
+	<li id="menu-item-87" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-87"><a href="https://www.vlsifacts.com/category/dhd/vhdl/">VHDL</a>
+	<li id="menu-item-352" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-352"><a href="https://www.vlsifacts.com/category/dhd/xilinx/">Xilinx</a>
+</ul>
+
+<li id="menu-item-38" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children sub-menu-parent menu-item-38"><a href="https://www.vlsifacts.com/category/embeddedsystem/">Embedded System</a>
+<ul class="sub-menu">
+	<li id="menu-item-91" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-91"><a href="https://www.vlsifacts.com/category/embeddedsystem/8085up/">8085 uP</a>
+	<li id="menu-item-92" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-92"><a href="https://www.vlsifacts.com/category/embeddedsystem/8086up/">8086 uP</a>
+	<li id="menu-item-90" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-90"><a href="https://www.vlsifacts.com/category/embeddedsystem/8051uc/">8051 uC</a>
+</ul>
+
+<li id="menu-item-88" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children sub-menu-parent menu-item-88"><a href="https://www.vlsifacts.com/category/vlsi-technology/">VLSI Technology</a>
+<ul class="sub-menu">
+	<li id="menu-item-152" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-152"><a href="https://www.vlsifacts.com/category/vlsi-technology/analog-electronics/">Analog Electronics</a>
+	<li id="menu-item-153" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-153"><a href="https://www.vlsifacts.com/category/vlsi-technology/memory-devices/">Memory Devices</a>
+	<li id="menu-item-89" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-89"><a href="https://www.vlsifacts.com/category/vlsi-technology/vlsi-circuits/">VLSI Circuits</a>
+</ul>
+
+<li id="menu-item-583" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children sub-menu-parent menu-item-583"><a href="https://www.vlsifacts.com/category/interview/">Interview</a>
+<ul class="sub-menu">
+	<li id="menu-item-475" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-475"><a href="https://www.vlsifacts.com/category/interview/interview_experience/">Interview Experience</a>
+	<li id="menu-item-584" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584"><a href="https://www.vlsifacts.com/category/interview/training_experience/">Training Experience</a>
+	<li id="menu-item-1190" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1190"><a href="https://www.vlsifacts.com/category/question-bank/">Question Bank</a>
+</ul>
+
+<li id="menu-item-525" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-525"><a href="https://www.vlsifacts.com/category/notifications/">Notifications</a>
+<li id="menu-item-1891" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1891"><a href="https://www.vlsifacts.com/vlsifacts-quiz/">QUIZ</a>
+<li id="menu-item-592" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-592"><a href="https://www.vlsifacts.com/community/">Community</a>
+<li id="menu-item-2564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2564"><a href="https://www.vlsifacts.com/job-board/">Job Board</a>
+<li id="menu-item-514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-514"><a href="https://www.vlsifacts.com/contact-us/">Contact Us</a>
+</ul></div>						</nav><!-- #site-navigation -->
+
+											</div>
+				</div>
+
+			</div><!-- .c12 -->
+		</header><!-- #header.row -->
+
+		<div id="main" class="row">
+	<div id="primary" class="c6 push3" role="main">
+			<article id="post-2704" class="post-2704 post type-post status-publish format-standard hentry category-de tag-alphanumeric-code tag-ascii-code tag-extended-ascii tag-graphic-symbols">
+
+	    <header>
+                <div class="post-category"><a href="https://www.vlsifacts.com/category/dhd/de/" rel="category tag">Digital Electronics</a></div>
+            <h1 class="entry-title">ASCII Code</h1>
+    <div class="entry-meta">
+        by <span class="vcard author"><span class="fn"><a href="https://www.vlsifacts.com/author/vlsifacts/" title="Posts by vlsifacts" rel="author">vlsifacts</a></span></span>&nbsp;&bull;&nbsp;<time class="published" datetime="2023-02-28">February 28, 2023</time>&nbsp;&bull;&nbsp;<a href="https://www.vlsifacts.com/ascii-code/#respond">0 Comments</a>    </div>
+</header>
+
+	    <div class="entry-content">
+		    
+<p style="text-align: justify;">ASCII codes are alphanumeric codes that represent numbers, alphabets, symbols and special characters in computers. ASCII stands for American Standard Code for Information Interchange. Whenever we press a key from the keyboard, the corresponding ASCII code goes into the computer. ASCII has 128 characters that can be represented using 7 bits (00 to 7F in hexadecimal). The first 32 ASCII characters are nongraphic commands that are not displayed but are control sequences such as &#8220;null&#8221;, &#8220;escape&#8221;, etc. The remaining characters are graphic symbols that can be displayed, such as letters and numbers etc. The following table shows the list of all ASCII characters along with their code. The table is collected from the book that is mentioned in the Reference section.</p>
+<div id="attachment_2706" style="width: 854px" class="wp-caption alignnone"><a href="https://www.vlsifacts.com/wp-content/uploads/2023/02/ASCII-Code.png"><img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-2706" class="size-full wp-image-2706" src="https://www.vlsifacts.com/wp-content/uploads/2023/02/ASCII-Code.png" alt="" width="844" height="481" srcset="https://www.vlsifacts.com/wp-content/uploads/2023/02/ASCII-Code.png 844w, https://www.vlsifacts.com/wp-content/uploads/2023/02/ASCII-Code-300x171.png 300w, https://www.vlsifacts.com/wp-content/uploads/2023/02/ASCII-Code-768x438.png 768w, https://www.vlsifacts.com/wp-content/uploads/2023/02/ASCII-Code-560x319.png 560w, https://www.vlsifacts.com/wp-content/uploads/2023/02/ASCII-Code-260x148.png 260w, https://www.vlsifacts.com/wp-content/uploads/2023/02/ASCII-Code-160x91.png 160w" sizes="(max-width: 844px) 100vw, 844px" /></a><p id="caption-attachment-2706" class="wp-caption-text">American Standard Code for Information Interchange (ASCII) [Image Courtesy: Reference]</p></div>
+<h3><span style="text-decoration: underline; color: #0000ff;">Extended ASCII Characters</span></h3>
+<p style="text-align: justify;">Other than the 128 standard ASCII characters, IBM adopted an additional 128 characters for use in their PCs. Because of the popularity of IBM PCs, these extended ASCII characters are also considered standard. The extended ASCII characters are represented using eight binary bits, starting from 80H to FFH. These extended ASCII characters include non-English alphabets, foreign currency symbols, Greek letters etc.</p>
+<p><strong>Reference:</strong> Floyd, Thomas L. <a href="https://amzn.to/3lu5S3Q" target="_blank" rel="noopener">Digital Fundamentals</a><b><i>.</i></b> Pearson Education India.</p>
+<h4 style="text-align: center;"><a href="https://www.vlsifacts.com/applications-of-gray-code/"><span style="color: #0000ff; background-color: #ccffcc;"><strong>Previous</strong></span></a>          <span style="background-color: #ccffcc;"><a style="background-color: #ccffcc;" href="https://www.vlsifacts.com/digital-electronics/" rel="noopener"><strong><span style="color: #0000ff;">Table of Content</span></strong></a></span><strong><span style="color: #0000ff;">          </span></strong><a href="https://www.vlsifacts.com/error-detection-and-correction-codes/"><span style="color: #0000ff; background-color: #ccffcc;"><strong>Next</strong></span></a></h4>
+<p><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4797280984343374" crossorigin="anonymous"></script></p>
+<!-- VLSIFacts Responsive Link [previously link ad unit] -->
+<p><ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-4797280984343374" data-ad-slot="5997880542" data-ad-format="auto" data-full-width-responsive="true"></ins> <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Spread the Word</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-2704" class="share-facebook sd-button share-icon no-text" href="https://www.vlsifacts.com/ascii-code/?share=facebook" target="_blank" title="Click to share on Facebook" ><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-2704" class="share-twitter sd-button share-icon no-text" href="https://www.vlsifacts.com/ascii-code/?share=twitter" target="_blank" title="Click to share on Twitter" ><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-2704" class="share-linkedin sd-button share-icon no-text" href="https://www.vlsifacts.com/ascii-code/?share=linkedin" target="_blank" title="Click to share on LinkedIn" ><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li><li class="share-pinterest"><a rel="nofollow noopener noreferrer" data-shared="sharing-pinterest-2704" class="share-pinterest sd-button share-icon no-text" href="https://www.vlsifacts.com/ascii-code/?share=pinterest" target="_blank" title="Click to share on Pinterest" ><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest (Opens in new window)</span></a></li><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon no-text" href="https://www.vlsifacts.com/ascii-code/?share=tumblr" target="_blank" title="Click to share on Tumblr" ><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr (Opens in new window)</span></a></li><li class="share-pocket"><a rel="nofollow noopener noreferrer" data-shared="" class="share-pocket sd-button share-icon no-text" href="https://www.vlsifacts.com/ascii-code/?share=pocket" target="_blank" title="Click to share on Pocket" ><span></span><span class="sharing-screen-reader-text">Click to share on Pocket (Opens in new window)</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://www.vlsifacts.com/ascii-code/?share=reddit" target="_blank" title="Click to share on Reddit" ><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon no-text" href="mailto:?subject=%5BShared%20Post%5D%20ASCII%20Code&body=https%3A%2F%2Fwww.vlsifacts.com%2Fascii-code%2F&share=email" target="_blank" title="Click to email a link to a friend" data-email-share-error-title="Do you have email set up?" data-email-share-error-text="If you&#039;re having problems sharing via email, you might not have email set up for your browser. You may need to create a new email yourself." data-email-share-nonce="6b27318e53" data-email-share-track-url="https://www.vlsifacts.com/ascii-code/?share=email"><span></span><span class="sharing-screen-reader-text">Click to email a link to a friend (Opens in new window)</span></a></li><li class="share-print"><a rel="nofollow noopener noreferrer" data-shared="" class="share-print sd-button share-icon no-text" href="https://www.vlsifacts.com/ascii-code/#print" target="_blank" title="Click to print" ><span></span><span class="sharing-screen-reader-text">Click to print (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-93795715-2704-67a62920ed015' data-src='https://widgets.wp.com/likes/?ver=13.8.2#blog_id=93795715&amp;post_id=2704&amp;origin=www.vlsifacts.com&amp;obj_id=93795715-2704-67a62920ed015&amp;n=1' data-name='like-post-frame-93795715-2704-67a62920ed015' data-title='Like or Reblog'><h3 class="sd-title">Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div><div class='yarpp yarpp-related yarpp-related-website yarpp-template-list'>
+<!-- YARPP List -->
+<h3>Related posts:</h3><ol>
+<li><a href="https://www.vlsifacts.com/synthesis-functioning-blocking-non-blocking-assignments/" rel="bookmark" title="Synthesis and Functioning of Blocking and Non-Blocking Assignments.">Synthesis and Functioning of Blocking and Non-Blocking Assignments.</a></li>
+<li><a href="https://www.vlsifacts.com/synopsys-interview-questions-based-on-synthesis-and-simulation/" rel="bookmark" title="Synopsys &#8211; Interview Questions &#8211; based on Synthesis and Simulation">Synopsys &#8211; Interview Questions &#8211; based on Synthesis and Simulation</a></li>
+<li><a href="https://www.vlsifacts.com/state-machine-diagram-parity-generator/" rel="bookmark" title="State Machine Diagram for Parity Generator">State Machine Diagram for Parity Generator</a></li>
+<li><a href="https://www.vlsifacts.com/setup-hold-single-d-latch/" rel="bookmark" title="SETUP Time and SETUP Violation in a Single D Latch">SETUP Time and SETUP Violation in a Single D Latch</a></li>
+</ol>
+</div>
+	    </div><!-- .entry-content -->
+
+	        <footer class="entry">
+	    <p class="tags">Tags: <a href="https://www.vlsifacts.com/tag/alphanumeric-code/" rel="tag">Alphanumeric Code</a> <a href="https://www.vlsifacts.com/tag/ascii-code/" rel="tag">ASCII Code</a> <a href="https://www.vlsifacts.com/tag/extended-ascii/" rel="tag">Extended ASCII</a> <a href="https://www.vlsifacts.com/tag/graphic-symbols/" rel="tag">Graphic Symbols</a></p>	</footer><!-- .entry -->
+	
+	</article><!-- #post-2704 -->
+			<div id="posts-pagination">
+				<h3 class="screen-reader-text">Post navigation</h3>
+				<div class="previous fl"><a href="https://www.vlsifacts.com/what-is-a-wafer-in-vlsi/" rel="prev">&larr; What is a Wafer in VLSI</a></div>
+				<div class="next fr"><a href="https://www.vlsifacts.com/what-is-mpw-in-vlsi/" rel="next">What is MPW in VLSI &rarr;</a></div>
+			</div><!-- #posts-pagination -->
+
+			
+<div id="comments" class="comments-area">
+
+	
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/ascii-code/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://www.vlsifacts.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><p class="comment-form-comment"><label for="comment">Comment <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notify me of follow-up comments by email.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Notify me of new posts by email.</label></p><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='2704' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="d221978374" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="26"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	
+</div><!-- #comments .comments-area -->
+			</div><!-- #primary -->
+
+	<div id="secondary" class="c3 pull6" role="complementary">
+		<aside id="block-3" class="widget widget_block widget_search"><form role="search" method="get" action="https://www.vlsifacts.com/" class="wp-block-search__button-inside wp-block-search__icon-button wp-block-search"    ><label class="wp-block-search__label" for="wp-block-search__input-1" ><strong>Search from VLSIFacts</strong></label><div class="wp-block-search__inside-wrapper " ><input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required /><button aria-label="Search" class="wp-block-search__button has-icon wp-element-button" type="submit" ><svg class="search-icon" viewBox="0 0 24 24" width="24" height="24">
+					<path d="M13 5c-3.3 0-6 2.7-6 6 0 1.4.5 2.7 1.3 3.7l-3.8 3.8 1.1 1.1 3.8-3.8c1 .8 2.3 1.3 3.7 1.3 3.3 0 6-2.7 6-6S16.3 5 13 5zm0 10.5c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5z"></path>
+				</svg></button></div></form></aside><aside id="text-5" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VLSIFacts_Left_Panel_Link_Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4797280984343374"
+     data-ad-slot="5997880542"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</aside>
+		<aside id="recent-posts-3" class="widget widget_recent_entries">
+		<h3 class="widget-title">Recent Posts</h3>
+		<ul>
+											<li>
+					<a href="https://www.vlsifacts.com/what-is-a-neural-processing-unit-npu/">What is a Neural Processing Unit (NPU)</a>
+									</li>
+											<li>
+					<a href="https://www.vlsifacts.com/what-is-a-digital-signal-processor-dsp/">What is a Digital Signal Processor (DSP)</a>
+									</li>
+											<li>
+					<a href="https://www.vlsifacts.com/what-is-a-hardware-accelerator/">What is a Hardware Accelerator</a>
+									</li>
+											<li>
+					<a href="https://www.vlsifacts.com/what-is-a-gpu-a-specialized-graphics-processor/">What is a GPU? A Specialized Graphics Processor</a>
+									</li>
+											<li>
+					<a href="https://www.vlsifacts.com/what-is-a-cpu-the-brain-of-your-computer/">What is a CPU &#8211; The Brain of your Computer</a>
+									</li>
+					</ul>
+
+		</aside><aside id="recent-comments-3" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">r</span> on <a href="https://www.vlsifacts.com/bcd-addition/#comment-21165">BCD Addition</a></li><li class="recentcomments"><span class="comment-author-link">Muhammad Fayaz</span> on <a href="https://www.vlsifacts.com/mealy-to-moore-and-moore-to-mealy-transformation/#comment-4669">Mealy to Moore and Moore to Mealy Transformation</a></li><li class="recentcomments"><span class="comment-author-link">Ibrar babar</span> on <a href="https://www.vlsifacts.com/circuit-design-4-bit-binary-counter-using-d-flip-flops/#comment-4534">Circuit Design of a 4-bit Binary Counter Using D Flip-flops</a></li><li class="recentcomments"><span class="comment-author-link">Sidhartha</span> on <a href="https://www.vlsifacts.com/circuit-design-4-bit-binary-counter-using-d-flip-flops/#comment-4396">Circuit Design of a 4-bit Binary Counter Using D Flip-flops</a></li><li class="recentcomments"><span class="comment-author-link">ADARSH TIWARI</span> on <a href="https://www.vlsifacts.com/circuit-design-4-bit-binary-counter-using-d-flip-flops/#comment-4356">Circuit Design of a 4-bit Binary Counter Using D Flip-flops</a></li></ul></aside><aside id="categories-3" class="widget widget_categories"><h3 class="widget-title">Categories</h3>
+			<ul>
+					<li class="cat-item cat-item-3"><a href="https://www.vlsifacts.com/category/dhd/">DHD</a>
+<ul class='children'>
+	<li class="cat-item cat-item-9"><a href="https://www.vlsifacts.com/category/dhd/de/">Digital Electronics</a>
+</li>
+	<li class="cat-item cat-item-355"><a href="https://www.vlsifacts.com/category/dhd/fault-tolerant-system-design/">Fault Tolerant System Design</a>
+</li>
+	<li class="cat-item cat-item-290"><a href="https://www.vlsifacts.com/category/dhd/tlm/">TLM</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="https://www.vlsifacts.com/category/dhd/verification/">Verification</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://www.vlsifacts.com/category/dhd/verilog/">Verilog</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="https://www.vlsifacts.com/category/dhd/vhdl/">VHDL</a>
+</li>
+	<li class="cat-item cat-item-68"><a href="https://www.vlsifacts.com/category/dhd/xilinx/">Xilinx</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-2"><a href="https://www.vlsifacts.com/category/embeddedsystem/">Embedded System</a>
+<ul class='children'>
+	<li class="cat-item cat-item-7"><a href="https://www.vlsifacts.com/category/embeddedsystem/8085up/">8085 uP</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-549"><a href="https://www.vlsifacts.com/category/information/">Information</a>
+</li>
+	<li class="cat-item cat-item-128"><a href="https://www.vlsifacts.com/category/interview/">Interview</a>
+<ul class='children'>
+	<li class="cat-item cat-item-77"><a href="https://www.vlsifacts.com/category/interview/interview_experience/">Interview Experience</a>
+</li>
+	<li class="cat-item cat-item-129"><a href="https://www.vlsifacts.com/category/interview/training_experience/">Training Experience</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-14"><a href="https://www.vlsifacts.com/category/mems/">MEMS</a>
+</li>
+	<li class="cat-item cat-item-237"><a href="https://www.vlsifacts.com/category/news/">News</a>
+</li>
+	<li class="cat-item cat-item-117"><a href="https://www.vlsifacts.com/category/notifications/">Notifications</a>
+</li>
+	<li class="cat-item cat-item-151"><a href="https://www.vlsifacts.com/category/question-bank/">Question Bank</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="https://www.vlsifacts.com/category/soc/">SoC</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://www.vlsifacts.com/category/uncategorized/">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="https://www.vlsifacts.com/category/vlsi-technology/">VLSI Technology</a>
+<ul class='children'>
+	<li class="cat-item cat-item-41"><a href="https://www.vlsifacts.com/category/vlsi-technology/analog-electronics/">Analog Electronics</a>
+</li>
+	<li class="cat-item cat-item-389"><a href="https://www.vlsifacts.com/category/vlsi-technology/electric/">Electric</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="https://www.vlsifacts.com/category/vlsi-technology/fabrication/">Fabrication</a>
+</li>
+	<li class="cat-item cat-item-27"><a href="https://www.vlsifacts.com/category/vlsi-technology/memory-devices/">Memory Devices</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="https://www.vlsifacts.com/category/vlsi-technology/vlsi-circuits/">VLSI Circuits</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://www.vlsifacts.com/category/vlsi-testing/">VLSI Testing</a>
+</li>
+			</ul>
+
+			</aside><aside id="text-4" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VLSIFacts_Left_Panel 200x200 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-4797280984343374"
+     data-ad-slot="4521147345"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</aside>	</div><!-- #secondary.widget-area -->
+
+			<div id="tertiary" class="c3 end" role="complementary">
+			<aside id="block-8" class="widget widget_block">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-top is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained"><h3 class="widget-title">Subscribe to VLSIFacts</h3><div class="wp-widget-group__inner-blocks">	<div class="wp-block-jetpack-subscriptions__supports-newline is-style-split wp-block-jetpack-subscriptions">
+		<div class="wp-block-jetpack-subscriptions__container is-not-subscriber">
+							<form
+					action="https://wordpress.com/email-subscriptions"
+					method="post"
+					accept-charset="utf-8"
+					data-blog="93795715"
+					data-post_access_level="everybody"
+					data-subscriber_email=""
+					id="subscribe-blog-2"
+				>
+					<div class="wp-block-jetpack-subscriptions__form-elements">
+												<p id="subscribe-email">
+							<label
+								id="subscribe-field-2-label"
+								for="subscribe-field-2"
+								class="screen-reader-text"
+							>
+								Type your email…							</label>
+							<input
+									required="required"
+									type="email"
+									name="email"
+									class="no-border-radius "
+									style="font-size: 16px;padding: 15px 23px 15px 23px;border-radius: 0px;border-width: 1px;"
+									placeholder="Type your email…"
+									value=""
+									id="subscribe-field-2"
+									title="Please fill in this field."
+								/>						</p>
+												<p id="subscribe-submit"
+													>
+							<input type="hidden" name="action" value="subscribe"/>
+							<input type="hidden" name="blog_id" value="93795715"/>
+							<input type="hidden" name="source" value="https://www.vlsifacts.com/ascii-code/"/>
+							<input type="hidden" name="sub-type" value="subscribe-block"/>
+							<input type="hidden" name="app_source" value=""/>
+							<input type="hidden" name="redirect_fragment" value="subscribe-blog-2"/>
+							<input type="hidden" name="lang" value="en_US"/>
+							<input type="hidden" id="_wpnonce" name="_wpnonce" value="f9977ab5d5" /><input type="hidden" name="_wp_http_referer" value="/ascii-code/" /><input type="hidden" name="post_id" value="2704"/>							<button type="submit"
+																	class="wp-block-button__link no-border-radius"
+																									style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0; margin-left: 10px;border-radius: 0px;border-width: 1px;"
+																name="jetpack_subscriptions_widget"
+							>
+								Subscribe							</button>
+						</p>
+					</div>
+				</form>
+								</div>
+	</div>
+	</div></div></div>
+</div>
+</div>
+</aside><aside id="text-7" class="widget widget_text">			<div class="textwidget"><p><strong><a href="https://www.vlsifacts.com/digital-electronics/" target="_blank" rel="noopener">Digital Electronics</a></strong></p>
+<p><strong><a href="https://www.vlsifacts.com/electric-vlsi-design-system-tutorial-book/">Tutorial &#8211; Electric Tool</a></strong></p>
+</div>
+		</aside><aside id="text-2" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VLSIFacts_Right_Panel -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4797280984343374"
+     data-ad-slot="4994628944"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</aside><aside id="text-6" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VLSIFacts_Left_Panel_Link_Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4797280984343374"
+     data-ad-slot="5997880542"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</aside><aside id="top-posts-2" class="widget widget_top-posts"><h3 class="widget-title">Top Posts &amp; Pages</h3><ul><li><a href="https://www.vlsifacts.com/ascii-code/" class="bump-view" data-bump-view="tp" aria-current="page">ASCII Code</a></li><li><a href="https://www.vlsifacts.com/nand-gate-using-cmos-technology/" class="bump-view" data-bump-view="tp">NAND and NOR gate using CMOS Technology</a></li><li><a href="https://www.vlsifacts.com/bcd-addition/" class="bump-view" data-bump-view="tp">BCD Addition</a></li><li><a href="https://www.vlsifacts.com/how-to-convert-decimal-to-bcd-and-bcd-to-decimal/" class="bump-view" data-bump-view="tp">How to Convert Decimal to BCD and BCD to Decimal</a></li><li><a href="https://www.vlsifacts.com/circuit-design-4-bit-binary-counter-using-d-flip-flops/" class="bump-view" data-bump-view="tp">Circuit Design of a 4-bit Binary Counter Using D Flip-flops</a></li></ul></aside><aside id="facebook-likebox-2" class="widget widget_facebook_likebox"><h3 class="widget-title"><a href="https://www.facebook.com/vlsifacts">VLSIFacts</a></h3>		<div id="fb-root"></div>
+		<div class="fb-page" data-href="https://www.facebook.com/vlsifacts" data-width="340"  data-height="432" data-hide-cover="false" data-show-facepile="true" data-tabs="false" data-hide-cta="false" data-small-header="false">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vlsifacts"><a href="https://www.facebook.com/vlsifacts">VLSIFacts</a></blockquote></div>
+		</div>
+		</aside>		</div><!-- #tertiary.widget-area -->
+			</div> <!-- #main.row -->
+</div> <!-- #page.grid -->
+
+<footer id="footer" role="contentinfo">
+
+	<div id="footer-content" class="grid ">
+		<div class="row">
+
+			<p class="copyright c12">
+				<span class="fl">Copyright &copy; 2025 <a href="https://www.vlsifacts.com">VLSIFacts</a>. All Rights Reserved.</span>
+				<span class="fr">The Magazine Basic Theme by <a href="https://themes.bavotasan.com/">bavotasan.com</a>.</span>
+			</p><!-- .c12 -->
+
+		</div><!-- .row -->
+	</div><!-- #footer-content.grid -->
+
+</footer><!-- #footer -->
+
+
+<script type="text/javascript" id="bbp-swap-no-js-body-class">
+	document.body.className = document.body.className.replace( 'bbp-no-js', 'bbp-js' );
+</script>
+
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/www.vlsifacts.com\/ascii-code\/":2704};
+	</script>
+						<link rel='stylesheet' id='yarppRelatedCss-css' href='https://www.vlsifacts.com/wp-content/plugins/yet-another-related-posts-plugin/style/related.css?ver=5.30.10' type='text/css' media='all' />
+<style id='jetpack-block-subscriptions-inline-css' type='text/css'>
+.is-style-compact .is-not-subscriber .wp-block-button__link,.is-style-compact .is-not-subscriber .wp-block-jetpack-subscriptions__button{border-end-start-radius:0!important;border-start-start-radius:0!important;margin-inline-start:0!important}.is-style-compact .is-not-subscriber .components-text-control__input,.is-style-compact .is-not-subscriber p#subscribe-email input[type=email]{border-end-end-radius:0!important;border-start-end-radius:0!important}.is-style-compact:not(.wp-block-jetpack-subscriptions__use-newline) .components-text-control__input{border-inline-end-width:0!important}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form-container{display:flex;flex-direction:column}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline:not(.wp-block-jetpack-subscriptions__use-newline) .is-not-subscriber .wp-block-jetpack-subscriptions__form-elements{align-items:flex-start;display:flex}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline:not(.wp-block-jetpack-subscriptions__use-newline) p#subscribe-submit{display:flex;justify-content:center}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form .wp-block-jetpack-subscriptions__button,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form .wp-block-jetpack-subscriptions__textfield .components-text-control__input,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form button,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form input[type=email],.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form .wp-block-jetpack-subscriptions__button,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form .wp-block-jetpack-subscriptions__textfield .components-text-control__input,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form button,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form input[type=email]{box-sizing:border-box;cursor:pointer;line-height:1.3;min-width:auto!important;white-space:nowrap!important}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form input[type=email]::placeholder,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form input[type=email]:disabled,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form input[type=email]::placeholder,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form input[type=email]:disabled{color:currentColor;opacity:.5}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form .wp-block-jetpack-subscriptions__button,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form button,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form .wp-block-jetpack-subscriptions__button,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form button{border-color:#0000;border-style:solid}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form .wp-block-jetpack-subscriptions__textfield,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form p#subscribe-email,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form .wp-block-jetpack-subscriptions__textfield,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form p#subscribe-email{background:#0000;flex-grow:1}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form .wp-block-jetpack-subscriptions__textfield .components-base-control__field,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form .wp-block-jetpack-subscriptions__textfield .components-text-control__input,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form .wp-block-jetpack-subscriptions__textfield input[type=email],.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form p#subscribe-email .components-base-control__field,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form p#subscribe-email .components-text-control__input,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form p#subscribe-email input[type=email],.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form .wp-block-jetpack-subscriptions__textfield .components-base-control__field,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form .wp-block-jetpack-subscriptions__textfield .components-text-control__input,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form .wp-block-jetpack-subscriptions__textfield input[type=email],.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form p#subscribe-email .components-base-control__field,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form p#subscribe-email .components-text-control__input,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form p#subscribe-email input[type=email]{height:auto;margin:0;width:100%}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form p#subscribe-email,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline .wp-block-jetpack-subscriptions__form p#subscribe-submit,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form p#subscribe-email,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline form p#subscribe-submit{line-height:0;margin:0;padding:0}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline.wp-block-jetpack-subscriptions__show-subs .wp-block-jetpack-subscriptions__subscount{font-size:16px;margin:8px 0;text-align:end}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline.wp-block-jetpack-subscriptions__use-newline .wp-block-jetpack-subscriptions__form-elements{display:block}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline.wp-block-jetpack-subscriptions__use-newline .wp-block-jetpack-subscriptions__button,.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline.wp-block-jetpack-subscriptions__use-newline button{display:inline-block;max-width:100%}.wp-block-jetpack-subscriptions.wp-block-jetpack-subscriptions__supports-newline.wp-block-jetpack-subscriptions__use-newline .wp-block-jetpack-subscriptions__subscount{text-align:start}#subscribe-submit.is-link{text-align:center;width:auto!important}#subscribe-submit.is-link a{margin-left:0!important;margin-top:0!important;width:auto!important}@keyframes jetpack-memberships_button__spinner-animation{to{transform:rotate(1turn)}}.jetpack-memberships-spinner{display:none;height:1em;margin:0 0 0 5px;width:1em}.jetpack-memberships-spinner svg{height:100%;margin-bottom:-2px;width:100%}.jetpack-memberships-spinner-rotating{animation:jetpack-memberships_button__spinner-animation .75s linear infinite;transform-origin:center}.is-loading .jetpack-memberships-spinner{display:inline-block}body.jetpack-memberships-modal-open{overflow:hidden}dialog.jetpack-memberships-modal{opacity:1}dialog.jetpack-memberships-modal,dialog.jetpack-memberships-modal iframe{background:#0000;border:0;bottom:0;box-shadow:none;height:100%;left:0;margin:0;padding:0;position:fixed;right:0;top:0;width:100%}dialog.jetpack-memberships-modal::backdrop{background-color:#000;opacity:.7;transition:opacity .2s ease-out}dialog.jetpack-memberships-modal.is-loading,dialog.jetpack-memberships-modal.is-loading::backdrop{opacity:0}
+</style>
+<style id='core-block-supports-inline-css' type='text/css'>
+.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}
+</style>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-content/plugins/embed-any-document/js/pdfobject.min.js?ver=2.7.4" id="awsm-ead-pdf-object-js"></script>
+<script type="text/javascript" id="awsm-ead-public-js-extra">
+/* <![CDATA[ */
+var eadPublic = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-content/plugins/embed-any-document/js/embed-public.min.js?ver=2.7.4" id="awsm-ead-public-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/jquery/ui/resizable.min.js?ver=1.13.3" id="jquery-ui-resizable-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.3" id="jquery-ui-draggable-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/jquery/ui/controlgroup.min.js?ver=1.13.3" id="jquery-ui-controlgroup-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/jquery/ui/checkboxradio.min.js?ver=1.13.3" id="jquery-ui-checkboxradio-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/jquery/ui/button.min.js?ver=1.13.3" id="jquery-ui-button-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/jquery/ui/dialog.min.js?ver=1.13.3" id="jquery-ui-dialog-js"></script>
+<script type="text/javascript" id="s2-ajax-js-extra">
+/* <![CDATA[ */
+var s2AjaxScriptStrings = {"ajaxurl":"https:\/\/www.vlsifacts.com\/wp-admin\/admin-ajax.php","title":"Subscribe to this blog","nonce":"da94ebd134"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-content/plugins/subscribe2/include/s2-ajax.min.js?ver=1.3" id="s2-ajax-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-content/plugins/wp-syntax/js/wp-syntax.js?ver=1.2" id="wp-syntax-js-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/comment-reply.min.js?ver=6.7.1" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-content/themes/magazine-basic/library/js/theme.js?ver=6.7.1" id="theme_js-js"></script>
+<script type="text/javascript" id="jetpack-facebook-embed-js-extra">
+/* <![CDATA[ */
+var jpfbembed = {"appid":"249643311490","locale":"en_US"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-content/plugins/jetpack/_inc/build/facebook-embed.min.js?ver=13.8.2" id="jetpack-facebook-embed-js"></script>
+<script type="text/javascript" src="https://stats.wp.com/e-202506.js" id="jetpack-stats-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="jetpack-stats-js-after">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"93795715\",\"post\":\"2704\",\"tz\":\"0\",\"srv\":\"www.vlsifacts.com\",\"j\":\"1:13.8.2\"}") ]);
+_stq.push([ "clickTrackerInit", "93795715", "2704" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-content/plugins/jetpack/_inc/build/likes/queuehandler.min.js?ver=13.8.2" id="jetpack_likes_queuehandler-js"></script>
+<script defer type="text/javascript" src="https://www.vlsifacts.com/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1727684918" id="akismet-frontend-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="jetpack-blocks-assets-base-url-js-before">
+/* <![CDATA[ */
+var Jetpack_Block_Assets_Base_Url="https://www.vlsifacts.com/wp-content/plugins/jetpack/_inc/blocks/";
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-content/plugins/jetpack/_inc/blocks/subscriptions/view.js?minify=false&amp;ver=13.8.2" id="jetpack-block-subscriptions-js"></script>
+<script type="text/javascript" id="sharing-js-js-extra">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.vlsifacts.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=13.8.2" id="sharing-js-js"></script>
+<script type="text/javascript" id="sharing-js-js-after">
+/* <![CDATA[ */
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-facebook' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-twitter' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-twitter' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-linkedin' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-linkedin' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-tumblr' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-tumblr' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-pocket' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-pocket' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcompocket', 'menubar=1,resizable=1,width=450,height=450' );
+						return false;
+					}
+				} );
+			} )();
+/* ]]> */
+</script>
+	<iframe src='https://widgets.wp.com/likes/master.html?ver=20250207#ver=20250207&#038;n=1' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars' class='wpl-new-layout' role="dialog" aria-hidden="true" tabindex="-1"><div class="likes-text"><span>%d</span></div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+	</body>
+</html>
