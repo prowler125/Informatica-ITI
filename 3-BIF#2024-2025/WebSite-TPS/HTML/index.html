@@ -56,7 +56,7 @@ Esempi di algoritmi di compressione comuni (ZIP, JPEG, MP3).-->
   </head>
   <body>
     <header>
-      <h1 class=".oswald-unique">
+      <h1 class="h1">
         Rappresentazione delle informazioni nei Sistemi Digitali
       </h1>
     </header>
@@ -75,91 +75,76 @@ Esempi di algoritmi di compressione comuni (ZIP, JPEG, MP3).-->
           Una breve panoramica su come le informazioni vengono trasformate in
           dati digitali e sull'importanza di comprenderne i meccanismi.
         </p>
-        <p>
-          Questa è la mia Galleria personale in cui troverete dei miei progetti
-          e Origami che ho realizzato. Spero che vi piacciano!
-        </p>
-        <div class="container">
-          <div class="mySlides">
-            <div class="numbertext">1 / 5</div>
-            <img src="../images/byte.jpeg" style="width: 25%" />
+        <div class="gallery">
+          <a target="_parent" .href="./images/byte.jpeg">
+            <img src="../images/byte.jpeg" width="800" height="200" />
+          </a>
+          <div class="desc">
+            Byte: Un gruppo di 8 bit, spesso usato come unità di misura per la
+            memoria
           </div>
+        </div>
 
-          <div class="mySlides">
-            <div class="numbertext">2 / 5</div>
-            <img src="../images/audio.png" style="width: 25%" />
+        <div class="gallery">
+          <a href="../images/immagini.png">
+            <img
+              src="../images/immagini.png"
+              alt="Forest"
+              width="800"
+              height="200"
+            />
+          </a>
+          <div class="desc">
+            Codifica delle immagini: Tecniche per rappresentare immagini
+            digitali, come bitmap e grafica vettoriale.
           </div>
+        </div>
 
-          <div class="mySlides">
-            <div class="numbertext">3 / 5</div>
-            <img src="../images/video.jpeg" style="width: 25%" />
+        <div class="gallery">
+          <a href="../images/video.jpeg">
+            <img
+              src="../images/video.jpeg"
+              alt="Northern Lights"
+              width="800"
+              height="200"
+            />
+          </a>
+          <div class="desc">
+            Codifica video: Tecniche per rappresentare video digitali, come MPEG
+            e H.264.
           </div>
-
-          <div class="mySlides">
-            <div class="numbertext">4 / 5</div>
-            <img src="../images/immagini.png" style="width: 25%" />
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="../images/audio.png">
+            <img src="../images/audio.png" width="800" height="200" />
+          </a>
+          <div class="desc">
+            Codifica audio: Tecniche per rappresentare suoni digitali, come PCM
+            e MP3.
           </div>
-          <div class="mySlides">
-            <div class="numbertext">5 / 5</div>
-            <img src="../images/compression.jpeg" style="width: 25%" />
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="../images/analogDigital.png">
+            <img
+              src="../images/analogDigital.png"
+              alt="Mountains"
+              width="600"
+              height="400"
+            />
+          </a>
+          <div class="desc">
+            Conversione da analogico a digitale: Il processo di trasformazione
+            di un segnale analogico in un segnale digitale, come la
+            digitalizzazione di una foto.
           </div>
-
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-          <!-- Image text -->
-          <div class="caption-container" style="display: none">
-            <p id="caption"></p>
-          </div>
-
-          <!-- Thumbnail images -->
-          <div class="row">
-            <div class="column">
-              <img
-                class="demo cursor"
-                src="../images/byte.jpeg"
-                style="width: 50%"
-                onclick="currentSlide(1)"
-                alt="Camicia signore Origami"
-              />
-            </div>
-            <div class="column">
-              <img
-                class="demo cursor"
-                src="../images/audio.png"
-                style="width: 50%"
-                onclick="currentSlide(2)"
-                alt="Abito signora Origami"
-              />
-            </div>
-            <div class="column">
-              <img
-                class="demo cursor"
-                src="../images/video.jpeg"
-                style="width: 50%"
-                onclick="currentSlide(3)"
-                alt="Combo di vestiti Origami"
-              />
-            </div>
-            <div class="column">
-              <img
-                class="demo cursor"
-                src="../images/immagini.png"
-                style="width: 50%"
-                onclick="currentSlide(4)"
-                alt="Tulipano Origami"
-              />
-            </div>
-            <div class="column">
-              <img
-                class="demo cursor"
-                src="../images/compression.jpeg"
-                style="width: 50%"
-                onclick="currentSlide(5)"
-                alt="Tulipano Origami (Ver.2)"
-              />
-            </div>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="../images/compression.jpeg">
+            <img src="../images/compression.jpeg" width="800" height="200" />
+          </a>
+          <div class="desc">
+            Compressione dei dati: Tecniche per ridurre la dimensione dei file
+            digitali, come la compressione JPEG per le immagini.
           </div>
         </div>
       </article>
