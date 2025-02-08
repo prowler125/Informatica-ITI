@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codifica di Immagini, Suoni e Immagini in Movimento</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding: 2rem 0;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #4caf50;
+      }
+      .section {
+        margin-bottom: 2rem;
+      }
+      .section img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <header>
+        <h1>Codifica di Immagini, Suoni e Immagini in Movimento</h1>
+      </header>
+      <nav class="topnav">
+        <a href="../HTML/index.html">Home</a>
+        <a href="../HTML/alfaNum.html">La codifica dei caratteri</a>
+        <a class="active" href="../HTML/imagesVideo.html"
+          >Immagini, Video e codifiche</a
+        >
+        <a href="../HTML/sound.html">La codifica dei Suoni</a>
+        <a href="../HTML/compressionR.html">Ridondanza & compressione</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="section">
+        <h2>Codifica delle Immagini</h2>
+        <p>
+          Oltre ai caratteri, i sistemi digitali devono rappresentare anche
+          altri tipi di informazioni, come immagini, suoni e video. Per farlo,
+          vengono utilizzate diverse tecniche di codifica.
+        </p>
+      </div>
+      <div class="section">
+        <h3>Immagini Raster</h3>
+        <p>
+          Le immagini raster sono composte da una griglia di pixel, ognuno dei
+          quali contiene informazioni sul colore. La maggior parte delle
+          immagini raster utilizza la codifica RGB a 256 colori, in cui ogni
+          pixel è rappresentato da una combinazione di rosso, verde e blu. I
+          formati raster più comuni includono:
+        </p>
+        <ul>
+          <li>
+            <strong>JPEG:</strong> JPEG (Joint Photographic Experts Group) è un
+            formato di compressione lossy, il che significa che alcuni dati
+            vengono persi durante il processo di compressione. JPEG è ideale per
+            fotografie e immagini con molti dettagli, in quanto offre un buon
+            compromesso tra dimensione del file e qualità dell'immagine. JPEG è
+            il formato di immagine più comune utilizzato dalle fotocamere
+            digitali.
+          </li>
+          <li>
+            <strong>PNG:</strong> PNG (Portable Network Graphics) è un formato
+            di compressione lossless, il che significa che non vi è alcuna
+            perdita di dati durante la compressione. PNG è adatto per immagini
+            con bordi netti e aree di colore uniforme, come loghi e grafici.
+            Inoltre, PNG supporta la trasparenza.
+          </li>
+          <li>
+            <strong>GIF:</strong> GIF (Graphics Interchange Format) è un formato
+            limitato a 256 colori, ma supporta animazioni semplici. GIF è spesso
+            utilizzato per piccole animazioni e immagini con aree di colore
+            piatto.
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <h3>Immagini Vettoriali</h3>
+        <p>
+          Le immagini vettoriali sono composte da forme geometriche definite
+          matematicamente. I formati vettoriali più comuni includono SVG e EPS.
+          Le immagini vettoriali possono essere ridimensionate senza perdita di
+          qualità, il che le rende ideali per loghi, illustrazioni e grafici.
+        </p>
+      </div>
+      <div class="section">
+        <h2>Codifica delle Immagini in Movimento (Video)</h2>
+        <p>
+          La codifica video combina la compressione delle immagini con tecniche
+          per ridurre la ridondanza temporale tra i fotogrammi. I formati video
+          più utilizzati includono:
+        </p>
+        <ul>
+          <li>
+            <strong>MP4:</strong> MP4 (MPEG-4 Part 14) è un formato contenitore
+            che può contenere video, audio e sottotitoli. MP4 è lo standard per
+            i video web grazie alla sua alta qualità e alle dimensioni ridotte
+            dei file.
+          </li>
+          <li>
+            <strong>AVI:</strong> AVI (Audio Video Interleave) è un formato
+            contenitore sviluppato da Microsoft. AVI può contenere diversi codec
+            video e audio.
+          </li>
+          <li>
+            <strong>MOV:</strong> MOV è un formato contenitore sviluppato da
+            Apple per QuickTime. MOV è noto per la sua alta qualità video e
+            audio.
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2>Compressione Video</h2>
+        <p>
+          La compressione video è essenziale per ridurre le dimensioni dei file
+          video e renderli più facili da archiviare e trasmettere. I codec video
+          più comuni includono:
+        </p>
+        <ul>
+          <li>
+            <strong>H.264:</strong> H.264 è uno standard di codifica video molto
+            diffuso, noto per la sua alta qualità e il basso bitrate. H.264 è
+            utilizzato in molte applicazioni, tra cui la trasmissione
+            televisiva, i video online e i Blu-ray.
+          </li>
+          <li>
+            <strong>MPEG-4:</strong> MPEG-4 è un altro standard di codifica
+            video ampiamente utilizzato, che offre una buona qualità video a
+            bitrate relativamente bassi. MPEG-4 è spesso utilizzato per i video
+            online e i DVD.
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2>Formati Contenitore</h2>
+        <p>
+          I formati contenitore, come MP4, AVI e MOV, sono utilizzati per
+          contenere i dati video e audio codificati. I formati contenitore
+          possono anche contenere informazioni aggiuntive, come sottotitoli e
+          metadati.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
