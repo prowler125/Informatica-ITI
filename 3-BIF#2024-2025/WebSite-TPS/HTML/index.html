@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it"></html>
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap"
       rel="stylesheet"
@@ -23,7 +27,7 @@
         Rappresentazione delle informazioni nei Sistemi Digitali
       </h1>
       <nav class="topnav">
-        <a class="active" href="#about">Home</a>
+        <a class="active" href="../HTML/index.html">Home</a>
         <a href="../HTML/alfaNum.html">La codifica dei caratteri</a>
         <a href="../HTML/imagesVideo.html">Immagini, Video e codifiche</a>
         <a href="../HTML/sound.html">La codifica dei Suoni</a>
@@ -81,7 +85,10 @@
 
         <div class="gallery">
           <a target="_self" href="../images/analogDigital.png">
-            <img src="../images/analogDigital.png" alt="Conversione da analogico a digitale" />
+            <img
+              src="../images/analogDigital.png"
+              alt="Conversione da analogico a digitale"
+            />
           </a>
           <div class="desc">
             Conversione da analogico a digitale: Il processo di trasformazione
@@ -101,6 +108,42 @@
         </div>
       </section>
     </main>
+    <div style="margin-top: 20px">
+      <footer>
+        <div class="footer-content">
+          <p class=".copyright">
+            &copy; 2025 Rappresentazione delle Informazioni nei Sistemi
+            Digitali. Tutti i diritti riservati.
+          </p>
+          <div class="social-icons">
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              aria-label="Twitter"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const navLinks = document.querySelectorAll(".topnav a");

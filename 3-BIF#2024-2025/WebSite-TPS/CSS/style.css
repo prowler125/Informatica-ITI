@@ -260,3 +260,160 @@ html {
     opacity: 1;
   }
 }
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 1;
+  clear: both;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff6347;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+footer::after {
+  content: "2025 Rappresentazione delle Informazioni nei Sistemi Digitali. Tutti i diritti riservati.";
+  display: block;
+  margin-top: 10px;
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+button {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color var(--transition-duration),
+    transform var(--transition-duration);
+}
+
+button:hover {
+  background-color: #7a00b3; /* Slightly darkened accent color */
+  transform: scale(1.05);
+}
+
+.card {
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform var(--transition-duration),
+    box-shadow var(--transition-duration);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  font-family: "Lexend", serif;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: var(--hover-text-color);
+}
+
+.navbar {
+  background-color: var(--background-color);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: var(--text-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color var(--transition-duration),
+    color var(--transition-duration);
+}
+
+.navbar a:hover {
+  background-color: var(--hover-background-color);
+  color: var(--hover-text-color);
+}
+
+.navbar a.active {
+  background-color: #04aa6d;
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+  .navbar.responsive {
+    position: relative;
+  }
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.copyright {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
