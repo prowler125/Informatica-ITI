@@ -111,5 +111,18 @@
         multilingue in modo coerente.
       </p>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll(".topnav a");
+        navLinks.forEach((link) => {
+          link.addEventListener("mouseover", function () {
+            this.style.color = "#ff6347";
+          });
+          link.addEventListener("mouseout", function () {
+            this.style.color = "";
+          });
+        });
+      });
+    </script>
   </body>
 </html>
