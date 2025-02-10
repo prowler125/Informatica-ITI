@@ -3,13 +3,13 @@ Titolo del repository: Informatica-ITI
 
 Descrizione:
 
-Questo repository contiene una raccolta completa di file ed esercizi di informatica realizzati da Massimiliano Mancini durante il suo percorso di studi presso l'ITI E. Fermi. Il materiale è stato accuratamente organizzato per anno scolastico e per argomento, al fine di facilitarne la consultazione e il potenziale riutilizzo da parte di altri studenti o заинтересованными.
+Questo repository contiene una raccolta completa di file ed esercizi di informatica realizzati da Massimiliano Mancini durante il suo percorso di studi presso l'ITI E. Fermi. Il materiale è stato accuratamente organizzato per anno scolastico e per argomento, al fine di facilitarne la consultazione e il potenziale riutilizzo da parte di altri studenti o interessati.
 
 Obiettivi:
 
 Il repository persegue i seguenti obiettivi principali:
 
-Conservazione e condivisione del lavoro svolto: Il repository funge da archivio sicuro e strutturato per tutto il materiale prodotto nel corso degli anni scolastici, preservandolo dalla perdita e agevolandone la condivisione con colleghi e заинтересованными.
+Conservazione e condivisione del lavoro svolto: Il repository funge da archivio sicuro e strutturato per tutto il materiale prodotto nel corso degli anni scolastici, preservandolo dalla perdita e agevolandone la condivisione con colleghi e interessati.
 Risorsa di riferimento per la comunità studentesca: Il repository si propone come punto di riferimento utile per gli studenti dell'ITI E. Fermi che affrontano lo studio dell'informatica, offrendo esempi pratici di esercizi svolti, progetti completi e risorse didattiche di supporto.
 Struttura del repository:
 
