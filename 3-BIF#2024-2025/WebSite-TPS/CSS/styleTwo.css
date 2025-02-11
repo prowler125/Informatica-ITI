@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap");
+.together {
+  float: left; /* Posiziona l'immagine a sinistra */
+  margin: 10px; /* Aggiunge un po' di spazio tra le immagini */
+}
 body {
   font-family: "Lexend", serif;
   background-color: #f8f9fa;
