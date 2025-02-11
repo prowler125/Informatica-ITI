@@ -10,7 +10,7 @@
 
   .image {
     display: block;
-    width: 45%;
+    width: 60%;
     height: auto;
   }
 
@@ -27,7 +27,7 @@
   }
 
   .container:hover .overlay {
-    width: 45%;
+    width: 60%;
     left: 0%;
   }
 
