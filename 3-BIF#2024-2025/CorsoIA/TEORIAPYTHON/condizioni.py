@@ -11,3 +11,8 @@ if(A>B):
         print(f'A = {A} è maggiore di B = {B} ed è maggiore anche di C = {C}')
     else:
         print(f'A = {A} è maggiore SOLO di B = {B}')
+else:
+    if(B>C):
+        print(f'B = {B} è maggiore di A = {A} ed è maggiore anche di C = {C}')
+    else:
+        print(f'B = {B} è maggiore SOLO di A = {A}')
