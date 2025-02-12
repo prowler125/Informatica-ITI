@@ -1,4 +1,6 @@
-'''Secondo Esercizio in Python del Corso I.A.'''
+'''
+Secondo Esercizio in Python del Corso I.A.
+'''
 
 
 #Prima Parte: utilizzo di if, else ed elif
