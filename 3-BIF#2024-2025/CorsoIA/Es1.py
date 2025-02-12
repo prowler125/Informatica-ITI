@@ -18,13 +18,13 @@ print('Primo uso delle Variabili')
 print('Il tipo di Variabile in Python NON esiste: viene associato AUTOMATICAMENTE.')
 
 A=10
-print('Scritto sopra vi è, infatti, un esempio di Variabile intera: ', end="")
-print('A = {A}')
+print(f'Scritto sopra vi è, infatti, un esempio di Variabile intera: ', end="")
+print(f'A = {A}')
 
 C='Ciao'
-print('Scritto sopra vi è, invece, un esempio di Stringa: ', end="")
-print('C = {C}')
+print(f'Scritto sopra vi è, invece, un esempio di Stringa: ', end="")
+print(f'C = {C}')
 
 D=0,2345
-print('Ancora, scritto sopra troviamo, un esempio di Float: ', end="")
-print('D = {D}')
+print(f'Ancora, scritto sopra troviamo, un esempio di Float: ', end="")
+print(f'D = {D}')
