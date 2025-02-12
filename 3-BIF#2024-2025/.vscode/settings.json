@@ -51,5 +51,6 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp"
-  }
+  },
+  "livePreview.defaultPreviewPath": "/WebSite-TPS/HTML/index.html"
 }
