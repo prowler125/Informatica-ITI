@@ -1,10 +1,11 @@
 /*
 Ex 93-C
 File Conta 2 caratteri
-Scrivere un programma che, ricevuto in ingresso un file chiamato “Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt” e
-un carattere digitato da tastiera dall’utente restituisca tramite la
-console quante volte quel carattere compare per due volte
-consecutive nel file “Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt”.
+Scrivere un programma che, ricevuto in ingresso un file
+chiamato input.txt e un carattere digitato da tastiera
+dall’utente restituisca tramite la console quante volte
+quel carattere compare per due volte
+consecutive nel file input.txt.
 */
 
 #include <iostream>

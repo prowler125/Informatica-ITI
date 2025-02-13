@@ -1,4 +1,5 @@
 /*
+Es. n. A CONTA FRASE
 Verifica 2° Quadrimestre
 Informatica sui Files
 Mancini Massimiliano
@@ -19,8 +20,8 @@ int main()
 {
 
     int count = 0;
-    string x;
-    ifstream file("Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//93_ingresso.txt");
+    string frase;
+    ifstream file("Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//93-ingresso.txt");
 
     if (file.fail())
     {
@@ -28,12 +29,14 @@ int main()
         return 1;
     }
 
-    while (!file.eof())
+    cout << "Dammi la frase da tastiera: " << endl;
+    int i = 0;
+    while (i < 1)
     {
-        getline(file, x);
+        getline(cin, frase);
         count++;
+        i++;
     }
-
     file.close();
 
     cout << "Questo è il numero delle volte in cui la parola è stata trovata: " << count << endl;

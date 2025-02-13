@@ -9,7 +9,7 @@ Poi definisci una funzione copiaFileR analoga alla precedente, ma che copia i da
 Chiama nel main le due funzioni e verifica i risultati sui file fisici: in.txt, Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//out.txt, Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//outR.txt.
 */
 
-// Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//input.txt
+// Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//TXT//93-ingresso.txt
 
 #include <iostream>
 #include <fstream>
