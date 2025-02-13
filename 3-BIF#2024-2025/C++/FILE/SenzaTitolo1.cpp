@@ -1,8 +1,8 @@
 /*
-Verifica 2Â° Quadrimestre
+Verifica 2° Quadrimestre
 Informatica sui Files
 Mancini Massimiliano
-3Â° B-if 13/02/2025
+3° B-if 13/02/2025
 */
 
 #include <iostream>
@@ -36,6 +36,6 @@ int main()
 
     file.close();
 
-    cout << "Questo Ã¨ il numero delle volte in cui la parola Ã¨ stata trovata: " << count << endl;
+    cout << "Questo è il numero delle volte in cui la parola è stata trovata: " << count << endl;
     return 0;
 }
