@@ -1,9 +1,33 @@
-// ex102 classe punti  inline
+/*
+Es. 102
+
+Classe per la gestione di punti cartesiani
+
+Obiettivo: Creare una classe che rappresenti punti cartesiani e permetta di calcolare la distanza tra due punti, il punto medio e di stampare le coordinate dei punti.
+
+ Istruzioni:
+
+ 1. Definire una classe chiamata `Punti` che rappresenti due punti cartesiani (p1 e p2) e il loro punto medio.
+ 2. La classe deve avere i seguenti attributi privati:
+	- `float x1, y1;` per le coordinate del primo punto (p1).
+	- `float x2, y2;` per le coordinate del secondo punto (p2).
+	- `float mx, my;` per le coordinate del punto medio tra p1 e p2.
+ 3. Implementare i seguenti metodi pubblici:
+	- Un costruttore che accetti quattro parametri (le coordinate di p1 e p2) e calcoli il punto medio.
+	- Un costruttore di default che inizializzi p1 a (0,0) e p2 a (1,1).
+	- Un metodo `float distance()` che calcoli e ritorni la distanza tra p1 e p2.
+	- Un metodo `void setp1(int x, int y)` per impostare le coordinate di p1.
+	- Un metodo `void setp2(int x, int y)` per impostare le coordinate di p2.
+	- Un metodo `void pm()` per aggiornare le coordinate del punto medio.
+	- Un metodo `void stampaPuntoMedio()` per stampare le coordinate del punto medio.
+	- Un metodo `void stampaCoppia()` per stampare le coordinate di p1 e p2.
+ 4. Nel `main`, creare tre oggetti della classe `Punti` e utilizzare i metodi definiti per mostrare il funzionamento della classe.
+*/
 #include <string.h>
 #include <iostream>
 #include <math.h>
 using namespace std;
-// classe punti  cartesiani
+// Classe punti cartesiani
 class Punti
 {
 	// attributi
