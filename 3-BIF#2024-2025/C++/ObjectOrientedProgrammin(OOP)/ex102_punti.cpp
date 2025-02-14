@@ -98,7 +98,7 @@ public:
 int main()
 {
 	// istanzio un oggetto di nome a
-	Punti a(2, 0, 5, 4);
+	Punti a(0, -4, 3, -4);
 	a.stampaCoppia();
 	a.stampaPuntoMedio();
 	cout << "distanza= " << a.distance() << endl;
@@ -114,8 +114,8 @@ int main()
 	Punti c;
 	c.stampaCoppia();
 	c.stampaPuntoMedio();
-	c.setp1(3, 0);
-	c.setp2(0, 4);
+	c.setp1(0, -4);
+	c.setp2(3, -4);
 	c.stampaCoppia();
 	cout << "distanza= " << c.distance() << endl;
 	return 0;
