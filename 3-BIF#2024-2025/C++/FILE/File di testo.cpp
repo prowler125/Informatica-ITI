@@ -1,4 +1,5 @@
-/*Crea un programma o uno script da utilizzare
+/*
+Crea un programma o uno script da utilizzare
 in seguito nel modo più semplice possibile in
 python che dato un file .cpp, .txt o anche .py,
 chieda tramite un menu se:
