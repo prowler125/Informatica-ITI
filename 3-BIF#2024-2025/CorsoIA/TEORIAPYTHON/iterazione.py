@@ -51,3 +51,6 @@ elenco_amici.append(1)
 elenco = ["foo", "bar"]
 
 elenco_amici.append(elenco)
+
+numeri = [1, 2, 3, 4, 5]
+print("Elenco iniziale: ", numeri)
