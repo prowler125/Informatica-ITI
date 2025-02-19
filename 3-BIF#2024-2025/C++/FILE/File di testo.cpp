@@ -16,6 +16,7 @@ chieda tramite un menu se:
 #include <string>
 #include <algorithm>
 using namespace std;
+
 void toUpperCase(std::string &str)
 {
     transform(str.begin(), str.end(), str.begin(), ::toupper);
@@ -43,7 +44,6 @@ void toggleCase(std::string &str)
 
 void reformatText(std::string &str)
 {
-    // Example reformatting: trim leading/trailing spaces and replace multiple spaces with a single space
     str.erase(str.begin(), find_if(str.begin(), str.end(), [](unsigned char ch)
                                    { return !isspace(ch); }));
     str.erase(find_if(str.rbegin(), str.rend(), [](unsigned char ch)
@@ -60,7 +60,7 @@ void processFile(const string &filename, int option)
     ifstream inputFile(filename);
     if (!inputFile)
     {
-        cerr << "Error opening file: " << filename << endl;
+        cerr << "Errore nell'apertura del file: " << filename << endl;
         return;
     }
 
@@ -81,14 +81,14 @@ void processFile(const string &filename, int option)
         reformatText(content);
         break;
     default:
-        cerr << "Invalid option" << endl;
+        cerr << "Opzione non valida" << endl;
         return;
     }
 
     ofstream outputFile(filename);
     if (!outputFile)
     {
-        cerr << "Error opening file for writing: " << filename << endl;
+        cerr << "Errore nell'apertura del file per la scrittura: " << filename << endl;
         return;
     }
     outputFile << content;
@@ -100,9 +100,9 @@ int main()
     string filename;
     int option;
 
-    cout << "Enter the filename: ";
+    cout << "Inserisci il nome del file: ";
     cin >> filename;
-    cout << "Choose an option:\n1. Toggle case\n2. Reformat text\n";
+    cout << "Scegli un'opzione:\n1. Cambia maiuscole/minuscole\n2. Riformatta testo\n";
     cin >> option;
 
     processFile(filename, option);
