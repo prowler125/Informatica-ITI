@@ -46,3 +46,8 @@ print(mista)
 elenco_amici = []
 print("Questa è una lista vuota")
 print(elenco_amici)
+
+elenco_amici.append(1)
+elenco = ["foo", "bar"]
+
+elenco_amici.append(elenco)
