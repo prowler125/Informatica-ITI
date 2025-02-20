@@ -1,11 +1,19 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-using namespace std;
+#include <limits>
+using std::cin;
+using std::cout;
+using std::endl;
 
 void startGame()
 {
-    srand(time(0));
+    static bool seeded = false;
+    if (!seeded)
+    {
+        srand(time(0));
+        seeded = true;
+    }
     int score = 0;
     int level = 1;
     char input;
@@ -14,6 +22,18 @@ void startGame()
     {
         cout << "Livello " << level << ": Premi 'a' per saltare, 'd' per scivolare, 'q' per uscire: ";
         cin >> input;
+        if (cin.eof())
+        {
+            cout << "Input terminato. Uscita dal gioco." << endl;
+            break;
+        }
+        if (cin.fail() || (input != 'a' && input != 'd' && input != 'q'))
+        {
+            cin.clear();
+            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            cout << "Comando non riconosciuto. Riprova." << endl;
+            continue;
+        }
 
         if (input == 'q')
         {
@@ -50,6 +70,11 @@ void startGame()
                 }
             }
             level++;
+            if (level > 10) // Exit condition for the loop
+            {
+                cout << "Hai completato tutti i livelli! Punteggio finale: " << score << endl;
+                break;
+            }
         }
         else
         {
@@ -61,34 +86,36 @@ void startGame()
 int main()
 {
     cout << "Benvenuto nel gioco in stile Sonic!" << endl;
-    cout << "Premi 'q' per uscire dal gioco." << endl;
+    cout << " Premi 'a' per saltare, 'd' per scivolare, 'q' per uscire." << endl;
 
     char input;
     while (true)
     {
-        cout << "Inserisci un comando: ";
+        cout << "Vuoi iniziare una nuova partita? (s/n): ";
         cin >> input;
 
-        if (input == 'q')
+        if (cin.eof())
         {
-            cout << "Grazie per aver giocato!" << endl;
+            cout << "Input terminato. Uscita dal gioco." << endl;
             break;
         }
-        else
+        if (cin.fail() || (input != 's' && input != 'S' && input != 'n' && input != 'N'))
         {
+            cin.clear();
+            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             cout << "Comando non riconosciuto. Riprova." << endl;
+            continue;
         }
-    }
-    cout << "Vuoi giocare di nuovo? (s/n): ";
-    cin >> input;
 
-    if (input == 's')
-    {
-        startGame(); // Start the detailed game
-    }
-    else
-    {
-        cout << "Arrivederci!" << endl;
+        if (input == 'n' || input == 'N')
+        {
+            cout << "Arrivederci!" << endl;
+            break;
+        }
+        else if (input == 's' || input == 'S')
+        {
+            startGame(); // Start the detailed game
+        }
     }
 
     return 0;
