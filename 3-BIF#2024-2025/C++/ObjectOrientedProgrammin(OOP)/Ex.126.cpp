@@ -5,6 +5,7 @@ Definire una classe Tria con metodi
 off-line. Vedi sotto costruttore
 implementazione metodi off-line
 */
+
 #include <iostream>
 #include <cmath>
 #include <math.h>
