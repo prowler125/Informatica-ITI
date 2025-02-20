@@ -1,14 +1,6 @@
-/*
-Ex 126 Triangoli Rettangoli
-
-Definire una classe Tria con metodi
-off-line. Vedi sotto costruttore
-implementazione metodi off-line
-*/
-
 #include <iostream>
 #include <cmath>
-#include <math.h>
+#include <string>
 using namespace std;
 
 class Tria
@@ -20,38 +12,35 @@ private:
 
 public:
     Tria(int x, int y, string z);
-    double Ipo();
-    double Per();
-    double Area();
-    string Nome();
+    double Ipo() const;
+    double Per() const;
+    double Area() const;
+    string Nome() const;
 };
 
-Tria::Tria(int x, int y, string z)
+Tria::Tria(int x, int y, string z) : cat1(x), cat2(y), nome(z)
 {
-    cat1 = x;
-    cat2 = y;
-    nome = z;
     ipo = sqrt(x * x + y * y);
     per = x + y + ipo;
-    area = x * y / 2;
+    area = static_cast<double>(x) * static_cast<double>(y) / 2;
 }
 
-double Tria::Ipo()
+double Tria::Ipo() const
 {
     return ipo;
 }
 
-double Tria::Per()
+double Tria::Per() const
 {
     return per;
 }
 
-double Tria::Area()
+double Tria::Area() const
 {
     return area;
 }
 
-string Tria::Nome()
+string Tria::Nome() const
 {
     return nome;
 }
@@ -62,7 +51,7 @@ int main()
     string nome;
 
     cout << "Inserisci il nome del triangolo: ";
-    cin >> nome;
+    getline(cin, nome);
     cout << "Inserisci il valore del primo cateto: ";
     cin >> cat1;
     cout << "Inserisci il valore del secondo cateto: ";
