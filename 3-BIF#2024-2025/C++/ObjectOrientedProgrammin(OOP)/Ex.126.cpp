@@ -5,11 +5,11 @@ Definire una classe Tria con metodi
 off-line. Vedi sotto costruttore
 implementazione metodi off-line
 */
-
 #include <iostream>
 #include <cmath>
 #include <math.h>
 using namespace std;
+
 class Tria
 {
 private:
@@ -57,7 +57,17 @@ string Tria::Nome()
 
 int main()
 {
-    Tria t(3, 4, "Triangolo1");
+    int cat1, cat2;
+    string nome;
+
+    cout << "Inserisci il nome del triangolo: ";
+    cin >> nome;
+    cout << "Inserisci il valore del primo cateto: ";
+    cin >> cat1;
+    cout << "Inserisci il valore del secondo cateto: ";
+    cin >> cat2;
+
+    Tria t(cat1, cat2, nome);
     cout << "Nome: " << t.Nome() << endl;
     cout << "Ipotenusa: " << t.Ipo() << endl;
     cout << "Perimetro: " << t.Per() << endl;
