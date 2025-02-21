@@ -1,10 +1,12 @@
-##Security Policy: un occhio di riguardo alle "Supported Versions"
+# **Linee guide base per la sicurezza di tutti**
+
+## **Security Policy: un occhio di riguardo alle "Supported Versions"**
 Se sviluppi o utilizzi software, la sicurezza è un aspetto cruciale. Hai mai sentito parlare di "Security Policy" e, in particolare, della sezione "Supported Versions"? Se la risposta è no, ti consiglio di leggere questo approfondimento. Capire di cosa si tratta e perché è importante può fare la differenza per la sicurezza dei tuoi progetti e dei sistemi che utilizzi.
 
-Cos'è una Security Policy?
+### **Cos'è una _Security Policy_?**
 Immagina che il tuo progetto software sia una casa. La Security Policy è un po' come il sistema di allarme, le telecamere di sorveglianza e le regole di accesso: un insieme di misure e informazioni che spiegano come viene protetta quella casa, o meglio, il tuo software. Questo documento fornisce dettagli su come vengono gestite le vulnerabilità di sicurezza, quali versioni del software sono supportate e ricevono aggiornamenti, come vengono rilasciate le patch di sicurezza e come vengono comunicate le informazioni relative alle vulnerabilità.
 
-Perché la sezione "Supported Versions" è così importante?
+### **Perché la sezione "Supported Versions" è così importante?**
 All'interno della Security Policy, la sezione "Supported Versions" (Versioni Supportate) è un elemento fondamentale. È come il cartello che indica quali stanze della casa sono ancora sicure e controllate. Questa sezione specifica chiaramente quali versioni del progetto sono attualmente mantenute attive e, di conseguenza, ricevono aggiornamenti di sicurezza. Questa informazione è vitale per gli utenti, perché permette loro di:
 
 Valutare il rischio: Sapere se la versione che stanno utilizzando è ancora supportata consente di capire se si è esposti a vulnerabilità conosciute e non ancora corrette. È un po' come sapere se la porta della tua stanza ha ancora la serratura funzionante.
@@ -19,7 +21,7 @@ Supporto basato su numeri di versione: Si può definire un intervallo di numeri 
 Esempio pratico
 Immagina una sezione "Supported Versions" ben definita:
 
-## Supported Versions
+## **Supported Versions**
 
 Questo progetto supporta le seguenti versioni con aggiornamenti di sicurezza:
 
@@ -44,13 +46,13 @@ La sezione "Supported Versions" è un elemento fondamentale della Security Polic
 | 4.0.x   | :white_check_mark: |
 | < 4.0   | :x:                |
 
-Segnalazione di una Vulnerabilità
+## **Segnalazione di una Vulnerabilità**
 Questa sezione fornisce indicazioni su come segnalare una vulnerabilità di sicurezza nel nostro progetto ospitato su GitHub. La tua collaborazione è fondamentale per garantire la sicurezza e l'integrità del nostro software e della nostra comunità. Apprezziamo il tuo impegno nell'aiutarci a identificare e risolvere potenziali problemi.
 
-Come Segnalare una Vulnerabilità
+### **Come Segnalare una Vulnerabilità**
 Se ritieni di aver individuato una vulnerabilità di sicurezza nel nostro progetto, ti invitiamo a segnalarcela immediatamente. Non divulgare pubblicamente la vulnerabilità prima che sia stata affrontata e risolta. La divulgazione pubblica prematura potrebbe mettere a rischio i nostri utenti e la nostra infrastruttura.
 
-Per segnalare una vulnerabilità, ti preghiamo di seguire questi passaggi:
+_Per segnalare una vulnerabilità, ti preghiamo di seguire questi passaggi:_
 
 Non creare una issue pubblica su GitHub: Le vulnerabilità di sicurezza non devono essere discusse pubblicamente. La creazione di una issue pubblica esporrebbe la vulnerabilità a un pubblico più ampio, inclusi potenziali aggressori, prima che abbiamo l'opportunità di risolverla.
 
@@ -69,7 +71,7 @@ Potenziali impatti: Descrivi i potenziali impatti della vulnerabilità. Quali da
 Proof of Concept (PoC) (opzionale): Se possibile, includi un Proof of Concept (PoC) che dimostri la vulnerabilità. Un PoC è un piccolo programma o script che sfrutta la vulnerabilità. Tuttavia, fai attenzione a non causare danni durante la creazione del PoC.
 Mantieni la riservatezza: Non divulgare pubblicamente la vulnerabilità fino a quando non avremo confermato la ricezione della tua segnalazione e avremo avuto il tempo di analizzare e risolvere il problema.
 
-Tempi di Risposta e Aggiornamenti
+### **Tempi di Risposta e Aggiornamenti**
 Ci impegniamo a rispondere a tutte le segnalazioni di vulnerabilità nel minor tempo possibile. Tuttavia, il tempo necessario per analizzare e risolvere una vulnerabilità può variare a seconda della sua complessità.
 
 Conferma di ricezione: Entro [tempo di risposta, ad esempio 24-48 ore] dalla tua segnalazione, ti invieremo una conferma di ricezione.
