@@ -1,4 +1,4 @@
-Security Policy: un occhio di riguardo alle "Supported Versions"
+##Security Policy: un occhio di riguardo alle "Supported Versions"
 Se sviluppi o utilizzi software, la sicurezza è un aspetto cruciale. Hai mai sentito parlare di "Security Policy" e, in particolare, della sezione "Supported Versions"? Se la risposta è no, ti consiglio di leggere questo approfondimento. Capire di cosa si tratta e perché è importante può fare la differenza per la sicurezza dei tuoi progetti e dei sistemi che utilizzi.
 
 Cos'è una Security Policy?
