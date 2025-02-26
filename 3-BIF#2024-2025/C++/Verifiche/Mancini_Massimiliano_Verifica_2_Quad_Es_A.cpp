@@ -21,7 +21,7 @@ int main()
 
     int count = 0;
     string frase;
-    ifstream file("Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//93-ingresso.txt");
+    ifstream file("Z:/Informatica-ITI/3-BIF#2024-2025/C++/FILE/93-ingresso.txt");
 
     if (file.fail())
     {
@@ -30,12 +30,15 @@ int main()
     }
 
     cout << "Dammi la frase da tastiera: " << endl;
-    int i = 0;
-    while (i < 1)
+    getline(cin, frase);
+
+    string line;
+    while (getline(file, line))
     {
-        getline(cin, frase);
-        count++;
-        i++;
+        if (line.find(frase) != string::npos)
+        {
+            count++;
+        }
     }
     file.close();
 
