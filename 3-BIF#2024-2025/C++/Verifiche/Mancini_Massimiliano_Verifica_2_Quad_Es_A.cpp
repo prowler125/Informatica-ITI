@@ -21,7 +21,7 @@ int main()
 
     int count = 0;
     string frase;
-    ifstream file("Z:/Informatica-ITI/3-BIF#2024-2025/C++/FILE/93-ingresso.txt");
+    ifstream file("93-ingresso.txt");
 
     if (file.fail())
     {

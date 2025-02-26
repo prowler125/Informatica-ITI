@@ -12,11 +12,11 @@ Mancini Massimiliano
 using namespace std;
 
 int contaCar(const string &, char);
-const string FILE_PATH = "Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//93-ingresso.txt";
+const string FILE_PATH = "93-ingresso.txt";
 
 int main()
 {
-    string filename = "Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//93-ingresso.txt";
+    string filename = "93-ingresso.txt";
     char targetChar;
 
     cout << "Inserisci un carattere: ";
@@ -31,7 +31,7 @@ int main()
 
 int contaCar(const string &filename, char targetChar)
 {
-    ifstream inputFile("Z://Informatica-ITI//3-BIF#2024-2025//C++//FILE//93-ingresso.txt");
+    ifstream inputFile("93-ingresso.txt");
     if (inputFile.fail())
     {
         cerr << "Impossibile aprire il file." << endl;
