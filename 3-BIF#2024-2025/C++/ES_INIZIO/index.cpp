@@ -11,7 +11,7 @@ int sommSemplice()
     cin >> m;
     cin >> n;
     int somma = m + n;
-    cout << "La somma è: " << somma << endl;
+    cout << "La somma e': " << somma << endl;
     return somma;
 }
 
@@ -24,7 +24,7 @@ int sommComplex()
     int somma = (s + k) / 2;
     if (k != s)
     {
-        cout << "La Somma è: " << somma << endl;
+        cout << "La Somma e': " << somma << endl;
     }
     return somma;
 }

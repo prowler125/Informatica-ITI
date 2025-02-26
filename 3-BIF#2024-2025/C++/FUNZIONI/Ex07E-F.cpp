@@ -23,7 +23,7 @@ using namespace std;
 // Funzione che stampa il centro delle diagonali del quadrato
 void CENTER(int N, char X)
 {
-    // Controlla se N è dispari
+    // Controlla se N e' dispari
     if (N % 2 == 1)
     {
         int center = N / 2; // Calcola la posizione del centro

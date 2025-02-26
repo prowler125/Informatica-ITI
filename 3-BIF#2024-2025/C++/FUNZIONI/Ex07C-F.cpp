@@ -100,7 +100,7 @@ void DIAG2(int N, char X)
 void CENTER(int N, char X)
 {
     if (N % 2 == 1)
-    {                       // Controlla se N è dispari
+    {                       // Controlla se N e' dispari
         int centro = N / 2; // Calcola la posizione del centro
         for (int i = 0; i < N; i++)
         {

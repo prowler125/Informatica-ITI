@@ -42,7 +42,7 @@ int main()
     cin >> ora2.ore >> ora2.minuti;
 
     int differenza = contaminuti(ora1, ora2);
-    cout << "La differenza in minuti tra le due ore è: " << differenza << " minuti" << endl;
+    cout << "La differenza in minuti tra le due ore e': " << differenza << " minuti" << endl;
 
     return 0;
 }

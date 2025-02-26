@@ -28,7 +28,7 @@ int main()
     }
     else
     {
-        cout << "Il numero inserito non è positivo." << endl;
+        cout << "Il numero inserito non e' positivo." << endl;
     }
 
     return 0;

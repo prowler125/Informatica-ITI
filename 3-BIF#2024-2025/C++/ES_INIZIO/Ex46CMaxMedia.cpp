@@ -25,8 +25,8 @@ int main()
         }
         media = (media + vett[i]) / 2;
     }
-    cout << "Il massimo è: " << max << endl;
-    cout << "La media è: " << media << endl;
+    cout << "Il massimo e': " << max << endl;
+    cout << "La media e': " << media << endl;
 
     return 0;
 }

@@ -22,8 +22,8 @@ int main() // Definizione ed inizio della funzione principale
     cout << "Dammi i 3 valori: " << endl;
     cin >> x >> y >> z;
     max = mm3(x, y, z, media); // Calcolo attraverso Funzione
-    cout << "Il valore massimo è: " << max << "\t";
-    cout << "La media è: " << media << "\t" << endl;
+    cout << "Il valore massimo e': " << max << "\t";
+    cout << "La media e': " << media << "\t" << endl;
     return 0;
 }
 

@@ -24,7 +24,7 @@ int main()
         cin >> vett[i];
         sommaVett = sommaVett + vett[i];
     }
-    cout << "La somma del vettore è: " << sommaVett << endl;
+    cout << "La somma del vettore e': " << sommaVett << endl;
 
     return 0;
 }

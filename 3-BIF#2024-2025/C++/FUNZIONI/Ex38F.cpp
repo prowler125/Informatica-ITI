@@ -25,6 +25,6 @@ int main()
     int num;
     cout << "Inserisci un numero: ";
     cin >> num;
-    cout << "Il fattoriale di " << num << " è " << FATTOR(num) << endl;
+    cout << "Il fattoriale di " << num << " e' " << FATTOR(num) << endl;
     return 0;
 }

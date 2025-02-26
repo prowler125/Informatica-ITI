@@ -8,11 +8,11 @@ int main()
     cin >> n;
     if (n % 2 == 0)
     {
-        cout << "Il numero è PARI" << endl;
+        cout << "Il numero e' PARI" << endl;
     }
     else
     {
-        cout << "Il numero è DISPARI" << endl;
+        cout << "Il numero e' DISPARI" << endl;
     }
     return 0;
 }

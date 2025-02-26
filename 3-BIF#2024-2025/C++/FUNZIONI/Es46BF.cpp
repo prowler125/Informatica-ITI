@@ -60,5 +60,5 @@ void sommaVett(int vett[], int N)
     {
         somma += vett[i];
     }
-    cout << "\nLa somma del vettore è: " << somma << endl;
+    cout << "\nLa somma del vettore e': " << somma << endl;
 }

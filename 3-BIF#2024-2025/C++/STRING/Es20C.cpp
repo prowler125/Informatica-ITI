@@ -7,7 +7,7 @@ Vettore di Char PALINDROME:
     4. Crea la stringa specchio S2, come inversione di S1;
     5. Stampa sia S1 che S2 usando una funzione staString.
 
-Quindi Controlla se S1 è PALINDROME
+Quindi Controlla se S1 e' PALINDROME
 (devono essere uguali tutti i caratteri...)
 Usa libreria STRING.H e non la classe STRING.
 */
@@ -49,11 +49,11 @@ int main()
 
     if (isPalindrome)
     {
-        cout << "La stringa è palindroma." << endl;
+        cout << "La stringa e' palindroma." << endl;
     }
     else
     {
-        cout << "La stringa non è palindroma." << endl;
+        cout << "La stringa non e' palindroma." << endl;
     }
     return 0;
 }

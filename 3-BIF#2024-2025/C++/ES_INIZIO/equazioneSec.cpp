@@ -45,7 +45,7 @@ int equaz(int a, int b, int c, int &x1, int &x2, float &delta, float &s1, float 
     }
     if (delta < 0)
     {
-        cout << "Questa Equazione è IMPOSSIBILE" << endl;
+        cout << "Questa Equazione e' IMPOSSIBILE" << endl;
         return 99;
     }
 }

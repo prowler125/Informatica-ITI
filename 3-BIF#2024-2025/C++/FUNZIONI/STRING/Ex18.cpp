@@ -6,7 +6,7 @@ Stringhe Utilizzo
         2.1 Stampa la lunghezza di C;
         2.2 Estrae una sottostringa da C;
         2.3 Fa un replace in C;
-        2.4 Cerca se è presente in C una stringa letta da tastiera;
+        2.4 Cerca se e' presente in C una stringa letta da tastiera;
         2.5 Stampa C come vettore di char.
 */
 
@@ -24,12 +24,12 @@ int main()
 
     C = A + B;
 
-    cout << "C è: " << C << endl;
+    cout << "C e': " << C << endl;
 
     cout << "Lunghezza di C: " << C.length() << endl;
 
     string substring = C.substr(2, 4);
-    cout << "La sottostring è: " << substring << endl;
+    cout << "La sottostring e': " << substring << endl;
 
     string replacement = "mondo";
     size_t pos = C.find(substring);
@@ -52,7 +52,7 @@ int main()
     }
 
     const char *charArray = C.c_str();
-    cout << "C è un array di char: " << charArray << endl;
+    cout << "C e' un array di char: " << charArray << endl;
 
     return 0;
 }

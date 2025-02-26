@@ -9,7 +9,7 @@ di caratteri e lo rende al chiamante in modo dinamico
     2. Stampa v1 (STAMPAVET)
     3. Carica v1 con lettere a caso (CARICAVET)
 
-Chiama la funzione REVERSE che legge v1 e lo lascia come è, ma
+Chiama la funzione REVERSE che legge v1 e lo lascia come e', ma
 restituisce  un  vettore  invertito.
 
 Infine stampa il vettore invertito  ( STAMPAVET)

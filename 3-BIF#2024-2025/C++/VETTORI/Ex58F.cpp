@@ -3,13 +3,13 @@ Ex 58A-F RICERCA SEQUENZIALE in VETTORE NON ORDINATO:
 definire una funzione cercaVet che dato un vettore di interi VET già caricato
 (random da 1 a 10) di 20 elementi, ed un numero X lo cerca nel vettore e restituisce
 l'ndice della prima posizione in cui appare;
-se il numero non è presente restituisce -1.
+se il numero non e' presente restituisce -1.
 
 NB: si ferma alla prima occorenza di X ignorando le eventuali seguenti.
 Usa le funzioni.
 caricaVet e stampaVet.
 
-Modifica caricaVet perchè abbia come parametro anche il valore TOP
+Modifica caricaVet perche' abbia come parametro anche il valore TOP
 per generare numeri a caso tra 1 e TOP
 
 Nel main() procedi come segue:

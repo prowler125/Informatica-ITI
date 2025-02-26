@@ -8,8 +8,8 @@ formato dal carattere contenuto in X, definire le seguenti funzioni:
 1.  triangolo : stampa  tutto il triangolo
 2.  cornice :         stampa solo la  Cornice  del  triangolo
 3.  interno:           stampa solo interno del   triangolo
-4.  dispari:           ritorna se un numero è dispari o meno
-5.  altezza:           stampa   l’altezza relativa all’ ipotenusa“” assieme alla cornice, solo se N è dispari -  usa   funzione dispari (N) .
+4.  dispari:           ritorna se un numero e' dispari o meno
+5.  altezza:           stampa   l’altezza relativa all’ ipotenusa“” assieme alla cornice, solo se N e' dispari -  usa   funzione dispari (N) .
 6.  angoli:            stampa soli gli angoli del triangolo
 7.  casuale:         stampa tutto il  triangolo formato da  caratteri generati  a caso  all’interno della tabella ASCII ( es.33-255).
 Nel main ( ), dopo avere letto N ed X
@@ -152,7 +152,7 @@ int main()
     {
         countX += i;
     }
-    cout << "Il carattere " << X << " è stato visualizzato " << countX << " volte." << endl;
+    cout << "Il carattere " << X << " e' stato visualizzato " << countX << " volte." << endl;
 
     return 0;
 }

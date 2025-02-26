@@ -27,6 +27,6 @@ int main()
     cout << "Immetti 2 valori interi: ";
     cin >> num1 >> num2;
     int risultato = gcd(num1, num2);
-    cout << "L'MCD è " << risultato << endl;
+    cout << "L'MCD e' " << risultato << endl;
     return 0;
 }

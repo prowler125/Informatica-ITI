@@ -20,7 +20,7 @@ int main()
 {
     int x = 5;
     int y = 3;
-    cout << "Il risultato di " << x << " * " << y << " è: " << molt(x, y) << endl;
+    cout << "Il risultato di " << x << " * " << y << " e': " << molt(x, y) << endl;
     return 0;
 }
 

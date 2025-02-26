@@ -23,7 +23,7 @@ int main()
     }
     system("CLS");
 
-    cout << "Il contenuto del file è riportato qui di seguito: " << endl;
+    cout << "Il contenuto del file e' riportato qui di seguito: " << endl;
     while (!f1.eof())
     {
         c = f1.get();

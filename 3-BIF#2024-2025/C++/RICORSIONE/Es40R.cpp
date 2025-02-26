@@ -26,6 +26,6 @@ int main()
     cin >> X;
     cout << "Inserisci l'esponente (N): ";
     cin >> N;
-    cout << X << " elevato alla potenza di " << N << " è " << pot(X, N) << endl;
+    cout << X << " elevato alla potenza di " << N << " e' " << pot(X, N) << endl;
     return 0;
 }

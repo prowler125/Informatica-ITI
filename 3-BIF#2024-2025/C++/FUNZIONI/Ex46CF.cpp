@@ -24,7 +24,7 @@ int main()
         cout << "Dammi il valore dell'indice: " << i << endl;
         cin >> vett[i];
     }
-    cout << "La Media del Vettore è: " << mediaVett(vett, N) << " mentre il valore più altoè: " << maxVett(vett, N) << endl;
+    cout << "La Media del Vettore e': " << mediaVett(vett, N) << " mentre il valore più altoe': " << maxVett(vett, N) << endl;
     return 0;
 }
 

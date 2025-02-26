@@ -7,7 +7,7 @@ Chiamala nel main () sia su parametri attuali costanti che letti da tastiera:
     - AreaC ( X1,X2);
 
 poi usa la funzione per stampare l’area dei cerchi che hanno  raggio da 1 a N
-dove N è un numero a caso tra 10 e 20*/
+dove N e' un numero a caso tra 10 e 20*/
 
 #include <iostream>
 #include <cmath>

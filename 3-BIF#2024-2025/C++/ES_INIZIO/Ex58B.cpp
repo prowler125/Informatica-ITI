@@ -5,8 +5,8 @@ partendo da ex58A-F, definire una funzione cercaVet che dato un vettore di inter
 -  gli indici di TUTTE le posizioni in cui eventualmente X  appare;
 Suggerimento: usa un vettore INDEX per memorizzare le posizioni di X
 Usa le funzioni.  caricaVet e stampaVet.
-Modifica caricaVet perchè abbia come parametro anche  il valore TOP per generare numeri a caso tra 1 e TOP
-Modifica stampaVet perchèstampi solo valori >= 0;
+Modifica caricaVet perche' abbia come parametro anche  il valore TOP per generare numeri a caso tra 1 e TOP
+Modifica stampaVet perche'stampi solo valori >= 0;
  Nel main () procedi come segue:
  leggi il numero  X  da cercare da tastiera
  carica e stampa il vettore

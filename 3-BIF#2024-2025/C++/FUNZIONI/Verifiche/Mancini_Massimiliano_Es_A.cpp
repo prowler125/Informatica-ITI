@@ -16,7 +16,7 @@ Funzioni:
     TRIANGOLO == stampa TUTTO il triangolo;
     CORNICE == stampa la CORNICE del triangolo;
     INTERNO == stampa l'INTERNO del triangolo;
-    DISPARI == ritorna se il NUMERO è Dispari/Pari
+    DISPARI == ritorna se il NUMERO e' Dispari/Pari
     ALTEZZA == stampa l'ALTEZZA dell'Ipotenusa e la CORNICE, se N%2==1;
     ANGOLI == stampa gli ANGOLI del triangolo;
     CASUALE == stampa TUTTO il triangolo con caratteri CASUALI dall'ASCII;

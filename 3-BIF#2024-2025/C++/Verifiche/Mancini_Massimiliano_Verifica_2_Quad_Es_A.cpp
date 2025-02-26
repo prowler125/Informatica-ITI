@@ -39,6 +39,6 @@ int main()
     }
     file.close();
 
-    cout << "Questo è il numero delle volte in cui la parola è stata trovata: " << count << endl;
+    cout << "Questo e' il numero delle volte in cui la parola e' stata trovata: " << count << endl;
     return 0;
 }

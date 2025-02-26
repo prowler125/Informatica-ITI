@@ -16,7 +16,7 @@ int main()
     cin >> num1 >> num2;
 
     int gcd = mcd(num1, num2);
-    cout << "L'MCD di " << num1 << " e " << num2 << " è: " << gcd << endl;
+    cout << "L'MCD di " << num1 << " e " << num2 << " e': " << gcd << endl;
     return 0;
 }
 
