@@ -1,3 +1,36 @@
+/*
+Ex. 126-B
+Definire una classe Tria con metodi off-line
+Attributi:
+private:
+        int cat1, cat2;
+        string nome;
+        float ipo, per,area;
+
+Vedi sotto il costruttore
+implementazione metodi off- line
+    Tria ::Tria (int x, int y, string z){
+        cat1 = x;
+        cat2 = y;
+        nome=z;
+        ipo = sqrt( x*x+y*y);
+        per= x+y+ipo;
+        area= x*y/2;
+         }
+Aggiungere i seguenti metodi off-line
+void setxy( int , int );
+        void setx(int );
+        void sety( int );
+        void update ( );
+        float getipo ();
+        int getx ();
+        int gety ();
+        void view ();
+
+
+Farne uso nel main
+*/
+
 #include <iostream>
 #include <cmath>
 #include <string>
