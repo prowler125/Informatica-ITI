@@ -21,7 +21,7 @@ void caricaVet(int arr[], int& size) {
         }
         file.close();
     } else {
-        cerr << "Unable to open file vettore.txt" << endl;
+        cerr << "Impossibile aprire il file: vettore.txt" << endl;
     }
 }
 
