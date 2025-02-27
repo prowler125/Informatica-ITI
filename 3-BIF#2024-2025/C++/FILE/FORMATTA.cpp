@@ -17,17 +17,17 @@ chieda tramite un menu se:
 #include <algorithm>
 using namespace std;
 
-void toUpperCase(std::string &str)
+void toUpperCase(string &str)
 {
     transform(str.begin(), str.end(), str.begin(), ::toupper);
 }
 
-void toLowerCase(std::string &str)
+void toLowerCase(string &str)
 {
     transform(str.begin(), str.end(), str.begin(), ::tolower);
 }
 
-void toggleCase(std::string &str)
+void toggleCase(string &str)
 {
     for (char &c : str)
     {
@@ -42,7 +42,7 @@ void toggleCase(std::string &str)
     }
 }
 
-void reformatText(std::string &str)
+void reformatText(string &str)
 {
     str.erase(str.begin(), find_if(str.begin(), str.end(), [](unsigned char ch)
                                    { return !isspace(ch); }));
@@ -50,8 +50,8 @@ void reformatText(std::string &str)
                       { return !isspace(ch); })
                   .base(),
               str.end());
-    std::string::iterator new_end = unique(str.begin(), str.end(), [](char lhs, char rhs)
-                                           { return (lhs == rhs) && (lhs == ' '); });
+    string::iterator new_end = unique(str.begin(), str.end(), [](char lhs, char rhs)
+                                      { return (lhs == rhs) && (lhs == ' '); });
     str.erase(new_end, str.end());
 }
 
